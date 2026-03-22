@@ -20,6 +20,18 @@
   letter-spacing: 0.05em;
 }
 
+.footer-stats {
+  margin-top: 0.75rem;
+  font-size: 0.625rem;
+  color: var(--text-pinyin);
+  letter-spacing: 0.03em;
+}
+
+.footer-stats-sep {
+  margin: 0 0.5rem;
+  opacity: 0.4;
+}
+
 /* ── Empty / Skeleton ── */
 .empty-state {
   text-align: center;
@@ -46,3 +58,29 @@
 .skeleton-text { height: 1rem; margin-bottom: 0.75rem; }
 .skeleton-text-lg { height: 1.5rem; margin-bottom: 1rem; }
 .skeleton-text-sm { height: 0.75rem; margin-bottom: 0.5rem; }
+
+/* ── Toast ── */
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  padding: 0.625rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.8125rem;
+  font-family: var(--font-sans);
+  box-shadow: var(--shadow-md);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 100;
+}
+
+.toast-visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}

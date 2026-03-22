@@ -140,6 +140,41 @@ const app = createApp({
       return isEnglish.value ? (pair.note_detail_en || pair.note_detail) : pair.note_detail;
     }
 
+    const showAudio = ref(true);
+    const toastMsg = ref('');
+    const toastVisible = ref(false);
+    let toastTimer = null;
+
+    function showToast(msg) {
+      toastMsg.value = msg;
+      toastVisible.value = true;
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => { toastVisible.value = false; }, 2500);
+    }
+
+    function speakChar(char) {
+      if (!showAudio.value || !window.speechSynthesis) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(char);
+      utterance.lang = 'zh-CN';
+      utterance.rate = 0.8;
+      utterance.pitch = 1.1;
+      const voices = window.speechSynthesis.getVoices();
+      const zhVoice = voices.find(v => v.lang.startsWith('zh'));
+      if (zhVoice) utterance.voice = zhVoice;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function toggleAudio() {
+      showAudio.value = !showAudio.value;
+      localStorage.setItem('qzw_audio', showAudio.value ? '1' : '0');
+      if (showAudio.value) {
+        showToast(isEnglish.value ? 'Audio ON — Click any character to hear it' : '语音已开启 — 点击汉字即可听读音');
+      } else {
+        showToast(isEnglish.value ? 'Audio OFF' : '语音已关闭');
+      }
+    }
+
     function toggleDetail(id) {
       const newSet = new Set(expandedNotes.value);
       if (newSet.has(id)) {
@@ -165,6 +200,9 @@ const app = createApp({
 
       const savedLang = localStorage.getItem('qzw_lang');
       if (savedLang === 'en') isEnglish.value = true;
+
+      const savedAudio = localStorage.getItem('qzw_audio');
+      if (savedAudio === '0') showAudio.value = false;
 
       const data = await loadVerses();
       if (data) {
@@ -209,6 +247,9 @@ const app = createApp({
       showPinyin,
       showNotes,
       isEnglish,
+      showAudio,
+      toastMsg,
+      toastVisible,
       expandedNotes,
       filteredVerses,
       isHighlighted,
@@ -220,6 +261,8 @@ const app = createApp({
       togglePinyin,
       toggleNotes,
       toggleLang,
+      toggleAudio,
+      speakChar,
       toggleDetail,
     };
   }

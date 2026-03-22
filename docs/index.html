@@ -8,6 +8,16 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>文</text></svg>">
   <link rel="stylesheet" href="./css/style.css">
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JPM3NYJXYH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JPM3NYJXYH');
+  </script>
+  <!-- 不蒜子 -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </head>
 <body>
   <div id="app">
@@ -36,6 +46,10 @@
           <button class="btn btn-ghost" @click="toggleLang" :aria-label="isEnglish ? '切换中文注释' : 'Switch to English'">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
             {{ isEnglish ? 'EN' : '中' }}
+          </button>
+          <button class="btn btn-ghost" @click="toggleAudio" :aria-label="showAudio ? '关闭语音' : '开启语音'">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path v-if="showAudio" d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+            <span class="toggle-dot" :class="{ active: showAudio }"></span>
           </button>
           <button class="btn btn-ghost btn-icon" @click="toggleDark" :aria-label="isDark ? '切换亮色模式' : '切换暗色模式'">
             <svg v-if="!isDark" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -78,10 +92,10 @@
             <div class="quote-fade" :class="{ 'quote-fade-enter': isAnimating }">
               <div class="hero-verse">
                 <div class="hero-verse-line">
-                  <ruby v-for="(char, i) in currentVerse.line1" :key="'h1-'+i" class="hero-char">{{ char }}<rt v-show="showPinyin">{{ currentVerse.pinyin1[i] }}</rt></ruby>
+                  <ruby v-for="(char, i) in currentVerse.line1" :key="'h1-'+i" class="hero-char" @click="speakChar(char)">{{ char }}<rt v-show="showPinyin">{{ currentVerse.pinyin1[i] }}</rt></ruby>
                 </div>
                 <div class="hero-verse-line">
-                  <ruby v-for="(char, i) in currentVerse.line2" :key="'h2-'+i" class="hero-char">{{ char }}<rt v-show="showPinyin">{{ currentVerse.pinyin2[i] }}</rt></ruby>
+                  <ruby v-for="(char, i) in currentVerse.line2" :key="'h2-'+i" class="hero-char" @click="speakChar(char)">{{ char }}<rt v-show="showPinyin">{{ currentVerse.pinyin2[i] }}</rt></ruby>
                 </div>
               </div>
 
@@ -142,10 +156,10 @@
           <div class="verse-number">{{ pair.id }}</div>
           <div class="verse-lines">
             <div class="verse-line">
-              <ruby v-for="(char, i) in pair.line1" :key="'l1-'+pair.id+'-'+i" class="char" :class="{ highlight: isHighlighted(char, pair.pinyin1[i]) }">{{ char }}<rt v-show="showPinyin">{{ pair.pinyin1[i] }}</rt></ruby>
+              <ruby v-for="(char, i) in pair.line1" :key="'l1-'+pair.id+'-'+i" class="char" :class="{ highlight: isHighlighted(char, pair.pinyin1[i]) }" @click="speakChar(char)">{{ char }}<rt v-show="showPinyin">{{ pair.pinyin1[i] }}</rt></ruby>
             </div>
             <div class="verse-line">
-              <ruby v-for="(char, i) in pair.line2" :key="'l2-'+pair.id+'-'+i" class="char" :class="{ highlight: isHighlighted(char, pair.pinyin2[i]) }">{{ char }}<rt v-show="showPinyin">{{ pair.pinyin2[i] }}</rt></ruby>
+              <ruby v-for="(char, i) in pair.line2" :key="'l2-'+pair.id+'-'+i" class="char" :class="{ highlight: isHighlighted(char, pair.pinyin2[i]) }" @click="speakChar(char)">{{ char }}<rt v-show="showPinyin">{{ pair.pinyin2[i] }}</rt></ruby>
             </div>
           </div>
           <div class="verse-note" v-if="showNotes && getNote(pair)">
@@ -167,10 +181,17 @@
       </div>
     </section>
 
+    <div class="toast" :class="{ 'toast-visible': toastVisible }">{{ toastMsg }}</div>
+
     <footer class="footer">
       <div class="footer-inner">
         <p class="footer-title">千字文</p>
         <p class="footer-subtitle">南朝梁 · 周兴嗣 · Since 6th Century</p>
+        <p class="footer-stats">
+          <span id="busuanzi_container_site_pv">总浏览 <span id="busuanzi_value_site_pv">-</span> 次</span>
+          <span class="footer-stats-sep">·</span>
+          <span id="busuanzi_container_site_uv">访客 <span id="busuanzi_value_site_uv">-</span> 人</span>
+        </p>
       </div>
     </footer>
   </div>

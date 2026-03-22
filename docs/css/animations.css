@@ -53,7 +53,7 @@ html.dark .verse-pair:hover {
 /* ── Character hover glow ── */
 .char {
   transition: color 0.2s, text-shadow 0.3s, transform 0.2s;
-  cursor: default;
+  cursor: pointer;
 }
 
 .char:hover {
@@ -64,7 +64,7 @@ html.dark .verse-pair:hover {
 
 .hero-char {
   transition: text-shadow 0.3s, transform 0.2s;
-  cursor: default;
+  cursor: pointer;
 }
 
 .hero-char:hover {
