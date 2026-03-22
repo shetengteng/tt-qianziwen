@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>千字文 · Thousand Character Classic</title>
+  <meta name="description" content="南朝梁·周兴嗣编纂《千字文》全文，含拼音注音与白话文注释。古典优雅的在线阅读体验。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>文</text></svg>">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+</head>
+<body>
+  <div id="app">
+    <nav class="navbar" :class="{ scrolled: isScrolled }">
+      <div class="navbar-inner">
+        <div class="navbar-brand">
+          <svg class="navbar-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <div>
+            <div class="navbar-title">千字文</div>
+            <div class="navbar-subtitle">Thousand Character Classic</div>
+          </div>
+        </div>
+        <div class="navbar-actions">
+          <button class="btn btn-ghost" @click="togglePinyin" :aria-label="showPinyin ? '隐藏拼音' : '显示拼音'">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+            拼音
+            <span class="toggle-dot" :class="{ active: showPinyin }"></span>
+          </button>
+          <button class="btn btn-ghost" @click="toggleNotes" :aria-label="showNotes ? '隐藏注释' : '显示注释'">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            注释
+            <span class="toggle-dot" :class="{ active: showNotes }"></span>
+          </button>
+          <button class="btn btn-ghost btn-icon" @click="toggleDark" :aria-label="isDark ? '切换亮色模式' : '切换暗色模式'">
+            <svg v-if="!isDark" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            <svg v-if="isDark" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          </button>
+          <button class="btn btn-ghost" @click="scrollToFulltext" aria-label="浏览全文">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+            全文
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-card-unified anim-fade-up">
+          <div class="hero-card-header">
+            <h1 class="hero-title">千字文</h1>
+            <p class="hero-title-en">Thousand Character Classic</p>
+          </div>
+
+          <div class="hero-divider"></div>
+
+          <div class="hero-card-body" v-if="!currentVerse">
+            <div class="skeleton skeleton-text-sm" style="width: 120px; margin: 0 auto 2rem;"></div>
+            <div class="skeleton skeleton-text-lg" style="width: 70%; margin: 0 auto 0.5rem;"></div>
+            <div class="skeleton skeleton-text-lg" style="width: 50%; margin: 0 auto 2rem;"></div>
+            <div class="skeleton skeleton-text" style="width: 60%; margin: 0 auto;"></div>
+          </div>
+
+          <div class="hero-card-body" v-if="currentVerse">
+            <div class="hero-label">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              每日一句
+            </div>
+
+            <div class="quote-fade" :class="{ 'quote-fade-enter': isAnimating }">
+              <div class="hero-verse">
+                <div class="hero-verse-line">
+                  <ruby v-for="(char, i) in currentVerse.line1" :key="'h1-'+i" class="hero-char">{{ char }}<rt v-show="showPinyin">{{ currentVerse.pinyin1[i] }}</rt></ruby>
+                </div>
+                <div class="hero-verse-line">
+                  <ruby v-for="(char, i) in currentVerse.line2" :key="'h2-'+i" class="hero-char">{{ char }}<rt v-show="showPinyin">{{ currentVerse.pinyin2[i] }}</rt></ruby>
+                </div>
+              </div>
+
+              <p class="hero-note" v-if="showNotes && currentVerse.note">{{ currentVerse.note }}</p>
+            </div>
+
+            <p class="hero-source"><span class="source-tag">南朝梁 · 周兴嗣</span></p>
+
+            <div class="hero-actions">
+              <button class="btn btn-primary" @click="nextVerse" aria-label="换一句">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+                换一句
+              </button>
+              <button class="btn btn-ghost" @click="scrollToFulltext" aria-label="浏览全文" style="border: 1px solid var(--border);">
+                浏览全文
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint" @click="scrollToFulltext">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </section>
+
+    <section id="fulltext-section" class="fulltext-section">
+      <div class="section-header anim-fade-up">
+        <h2 class="section-title">全 文</h2>
+        <p class="section-count">{{ filteredVerses.length }} / {{ verses.length }}</p>
+      </div>
+
+      <div class="search-wrapper anim-fade-up">
+        <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input
+          class="search-input"
+          type="text"
+          v-model="searchQuery"
+          placeholder="搜索汉字、拼音或注释..."
+          aria-label="搜索"
+        >
+      </div>
+
+      <div class="verses-container">
+        <div
+          class="verse-pair anim-fade-up"
+          v-for="(pair, idx) in filteredVerses"
+          :key="pair.id"
+          :style="{ transitionDelay: (idx % 8) * 50 + 'ms' }"
+        >
+          <div class="verse-number">{{ pair.id }}</div>
+          <div class="verse-lines">
+            <div class="verse-line">
+              <ruby v-for="(char, i) in pair.line1" :key="'l1-'+pair.id+'-'+i" class="char" :class="{ highlight: isHighlighted(char, pair.pinyin1[i]) }">{{ char }}<rt v-show="showPinyin">{{ pair.pinyin1[i] }}</rt></ruby>
+            </div>
+            <div class="verse-line">
+              <ruby v-for="(char, i) in pair.line2" :key="'l2-'+pair.id+'-'+i" class="char" :class="{ highlight: isHighlighted(char, pair.pinyin2[i]) }">{{ char }}<rt v-show="showPinyin">{{ pair.pinyin2[i] }}</rt></ruby>
+            </div>
+          </div>
+          <div class="verse-note" v-if="showNotes && pair.note">
+            <p class="note-brief">{{ pair.note }}</p>
+            <button class="note-toggle" v-if="pair.note_detail" @click="toggleDetail(pair.id)">
+              {{ expandedNotes.has(pair.id) ? '收起' : '详注' }}
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" :style="{ transform: expandedNotes.has(pair.id) ? 'rotate(180deg)' : '' }"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <p class="note-detail" v-if="expandedNotes.has(pair.id)">{{ pair.note_detail }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="empty-state" v-if="filteredVerses.length === 0">
+        <div class="empty-state-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+        </div>
+        <p class="empty-state-text">未找到匹配的内容</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p class="footer-title">千字文</p>
+        <p class="footer-subtitle">南朝梁 · 周兴嗣 · Since 6th Century</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./js/qianziwen-data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
