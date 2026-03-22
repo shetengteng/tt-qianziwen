@@ -12,6 +12,8 @@
 
 ### 设置步骤
 
+https://analytics.google.com/analytics/web/provision/?authuser=1#/provision/create
+
 1. 访问 [Google Analytics](https://analytics.google.com/)
 2. 用你的 Google 账号登录
 3. 点击左下角 **管理（Admin）** → **创建账号（Create Account）**
