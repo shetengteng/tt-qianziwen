@@ -46,12 +46,10 @@ const app = createApp({
 
       const query = searchQuery.value.toLowerCase().trim();
       return verses.value.filter(v =>
-        v.line1.join('').includes(query) ||
-        v.line2.join('').includes(query) ||
-        v.pinyin1.join(' ').toLowerCase().includes(query) ||
-        v.pinyin2.join(' ').toLowerCase().includes(query) ||
-        (v.note && v.note.includes(query)) ||
-        (v.note_detail && v.note_detail.includes(query))
+        v.line1.some(c => c.includes(query)) ||
+        v.line2.some(c => c.includes(query)) ||
+        v.pinyin1.some(p => p.toLowerCase().includes(query)) ||
+        v.pinyin2.some(p => p.toLowerCase().includes(query))
       );
     });
 
