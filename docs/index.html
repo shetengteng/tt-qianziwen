@@ -85,7 +85,14 @@
                 </div>
               </div>
 
-              <p class="hero-note" v-if="showNotes && getNote(currentVerse)">{{ getNote(currentVerse) }}</p>
+              <div class="hero-note-wrapper" v-if="showNotes && getNote(currentVerse)">
+                <p class="hero-note">{{ getNote(currentVerse) }}</p>
+                <button class="note-toggle hero-note-toggle" v-if="getNoteDetail(currentVerse)" @click="toggleDetail('hero')">
+                  {{ expandedNotes.has('hero') ? (isEnglish ? 'Less' : '收起') : (isEnglish ? 'More' : '详注') }}
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" :style="{ transform: expandedNotes.has('hero') ? 'rotate(180deg)' : '' }"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <p class="hero-note-detail" v-if="expandedNotes.has('hero')">{{ getNoteDetail(currentVerse) }}</p>
+              </div>
             </div>
 
             <p class="hero-source"><span class="source-tag">南朝梁 · 周兴嗣</span></p>
