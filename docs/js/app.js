@@ -39,6 +39,7 @@ const app = createApp({
     const isDark = ref(false);
     const showPinyin = ref(true);
     const showNotes = ref(true);
+    const isEnglish = ref(false);
     const expandedNotes = ref(new Set());
 
     const filteredVerses = computed(() => {
@@ -126,6 +127,19 @@ const app = createApp({
       localStorage.setItem('qzw_notes', showNotes.value ? '1' : '0');
     }
 
+    function toggleLang() {
+      isEnglish.value = !isEnglish.value;
+      localStorage.setItem('qzw_lang', isEnglish.value ? 'en' : 'zh');
+    }
+
+    function getNote(pair) {
+      return isEnglish.value ? (pair.note_en || pair.note) : pair.note;
+    }
+
+    function getNoteDetail(pair) {
+      return isEnglish.value ? (pair.note_detail_en || pair.note_detail) : pair.note_detail;
+    }
+
     function toggleDetail(id) {
       const newSet = new Set(expandedNotes.value);
       if (newSet.has(id)) {
@@ -148,6 +162,9 @@ const app = createApp({
 
       const savedNotes = localStorage.getItem('qzw_notes');
       if (savedNotes === '0') showNotes.value = false;
+
+      const savedLang = localStorage.getItem('qzw_lang');
+      if (savedLang === 'en') isEnglish.value = true;
 
       const data = await loadVerses();
       if (data) {
@@ -191,14 +208,18 @@ const app = createApp({
       isDark,
       showPinyin,
       showNotes,
+      isEnglish,
       expandedNotes,
       filteredVerses,
       isHighlighted,
+      getNote,
+      getNoteDetail,
       nextVerse,
       scrollToFulltext,
       toggleDark,
       togglePinyin,
       toggleNotes,
+      toggleLang,
       toggleDetail,
     };
   }

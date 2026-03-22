@@ -26,7 +26,9 @@
       "huāng"
     ],
     "note": "天是青黑色的，地是黄色的。宇宙形成于混沌蒙昧的状态中。",
-    "note_detail": "玄，天的颜色，青黑色。黄，地的颜色。洪荒，混沌蒙昧的状态，传说中天地开辟之前的景象。出自《易经》「天玄而地黄」。"
+    "note_detail": "玄，天的颜色，青黑色。黄，地的颜色。洪荒，混沌蒙昧的状态，传说中天地开辟之前的景象。出自《易经》「天玄而地黄」。",
+    "note_en": "Heaven is dark blue-black, earth is yellow. The universe was born from vast primordial chaos.",
+    "note_detail_en": "Xuan refers to the color of the sky, dark blue-black. Huang refers to the color of the earth. Honghuang describes the primordial chaos before heaven and earth were separated. From the Book of Changes: 'Heaven is dark and earth is yellow.'"
   },
   {
     "id": 2,
@@ -55,7 +57,9 @@
       "zhāng"
     ],
     "note": "太阳有正有斜，月亮有圆有缺。星辰布满在无边的太空中。",
-    "note_detail": "盈，月光圆满。昃，太阳西斜。辰宿，星辰。列张，分布排列。古人观天象以定历法。"
+    "note_detail": "盈，月光圆满。昃，太阳西斜。辰宿，星辰。列张，分布排列。古人观天象以定历法。",
+    "note_en": "The sun rises and sets, the moon waxes and wanes. Stars are spread across the boundless sky.",
+    "note_detail_en": "Ying means the moon is full. Ze means the sun tilts westward. Chenxiu refers to stars and constellations. Liezhang means arranged and spread out. Ancients observed celestial patterns to establish calendars."
   },
   {
     "id": 3,
@@ -84,7 +88,9 @@
       "cáng"
     ],
     "note": "寒暑循环变换，来了又去。秋天收割庄稼，冬天储藏粮食。",
-    "note_detail": "描述四季更替的自然规律。秋收冬藏是中国农耕文明的核心智慧。"
+    "note_detail": "描述四季更替的自然规律。秋收冬藏是中国农耕文明的核心智慧。",
+    "note_en": "Cold and heat alternate in cycles. Autumn is for harvesting, winter for storing.",
+    "note_detail_en": "Describes the natural cycle of four seasons. Autumn harvest and winter storage represent the core wisdom of Chinese agricultural civilization."
   },
   {
     "id": 4,
@@ -113,7 +119,9 @@
       "yáng"
     ],
     "note": "积累闰月余日凑成一年，用六律六吕来调和阴阳。",
-    "note_detail": "闰余，农历闰月多出的天数。律吕，古代十二律，六律为阳，六吕为阴，用以调和音律、节气。"
+    "note_detail": "闰余，农历闰月多出的天数。律吕，古代十二律，六律为阳，六吕为阴，用以调和音律、节气。",
+    "note_en": "Accumulated leap days complete a year; the six pitches and six pipes harmonize yin and yang.",
+    "note_detail_en": "Runyu refers to the extra days in a lunar leap month. Lulv refers to the twelve ancient musical pitches—six yang (lv) and six yin (lu)—used to harmonize music and seasonal rhythms."
   },
   {
     "id": 5,
@@ -142,7 +150,9 @@
       "shuāng"
     ],
     "note": "云气升腾就会下雨，露水凝结就会成霜。",
-    "note_detail": "描述自然界水的循环变化。腾，上升。致，导致。结，凝结。"
+    "note_detail": "描述自然界水的循环变化。腾，上升。致，导致。结，凝结。",
+    "note_en": "Rising clouds bring rain; condensing dew becomes frost.",
+    "note_detail_en": "Describes the water cycle in nature. Teng means to rise. Zhi means to cause. Jie means to condense."
   },
   {
     "id": 6,
@@ -171,7 +181,9 @@
       "gāng"
     ],
     "note": "黄金产自金沙江，美玉出自昆仑山。",
-    "note_detail": "丽水，金沙江的古称。昆冈，昆仑山的别称。古人认为金玉乃天地精华所聚。"
+    "note_detail": "丽水，金沙江的古称。昆冈，昆仑山的别称。古人认为金玉乃天地精华所聚。",
+    "note_en": "Gold is found in the Li River; jade comes from the Kunlun Mountains.",
+    "note_detail_en": "Lishui is the ancient name for the Jinsha River. Kungang is another name for the Kunlun Mountains. Ancients believed gold and jade were the essence of heaven and earth."
   },
   {
     "id": 7,
@@ -200,7 +212,9 @@
       "guāng"
     ],
     "note": "最著名的宝剑叫巨阙，最珍贵的明珠叫夜光。",
-    "note_detail": "巨阙，春秋时欧冶子所铸名剑。夜光，传说中能在夜间发光的宝珠。"
+    "note_detail": "巨阙，春秋时欧冶子所铸名剑。夜光，传说中能在夜间发光的宝珠。",
+    "note_en": "The most famous sword is called Juque; the most precious pearl is called Night-Shining.",
+    "note_detail_en": "Juque was a legendary sword forged by Ou Yezi in the Spring and Autumn period. The Night-Shining Pearl was said to glow in the dark."
   },
   {
     "id": 8,
@@ -229,7 +243,9 @@
       "jiāng"
     ],
     "note": "水果中珍贵的是李子和柰，蔬菜中看重的是芥菜和生姜。",
-    "note_detail": "柰，古代一种苹果类水果。芥，芥菜。古人以此代表果蔬中的珍品。"
+    "note_detail": "柰，古代一种苹果类水果。芥，芥菜。古人以此代表果蔬中的珍品。",
+    "note_en": "Among fruits, plums and crabapples are prized; among vegetables, mustard and ginger are valued.",
+    "note_detail_en": "Nai was an ancient apple-like fruit. Jie refers to mustard greens. These represent the finest of fruits and vegetables."
   },
   {
     "id": 9,
@@ -258,7 +274,9 @@
       "xiáng"
     ],
     "note": "海水是咸的，河水是淡的。鱼儿在水中潜游，鸟儿在空中飞翔。",
-    "note_detail": "鳞，代指鱼类。羽，代指鸟类。以部分代整体，是古文常用修辞。"
+    "note_detail": "鳞，代指鱼类。羽，代指鸟类。以部分代整体，是古文常用修辞。",
+    "note_en": "The sea is salty, rivers are fresh. Fish swim in the depths, birds soar in the sky.",
+    "note_detail_en": "Lin (scales) represents fish. Yu (feathers) represents birds. Using a part to represent the whole is a common rhetorical device in classical Chinese."
   },
   {
     "id": 10,
@@ -287,7 +305,9 @@
       "huáng"
     ],
     "note": "伏羲以龙命名百官，神农以火命名，少昊以鸟命名官职，这些都是人类的帝皇。",
-    "note_detail": "龙师，伏羲氏以龙纪官。火帝，神农氏以火纪官。鸟官，少昊氏以鸟纪官。人皇，三皇之一。"
+    "note_detail": "龙师，伏羲氏以龙纪官。火帝，神农氏以火纪官。鸟官，少昊氏以鸟纪官。人皇，三皇之一。",
+    "note_en": "Fuxi named officials after dragons, Shennong after fire, Shaohao after birds—these were humanity's emperors.",
+    "note_detail_en": "Dragon Master: Fuxi named officials after dragons. Fire Emperor: Shennong named them after fire. Bird Official: Shaohao named them after birds. Renhuang is one of the Three Sovereigns."
   },
   {
     "id": 11,
@@ -316,7 +336,9 @@
       "cháng"
     ],
     "note": "仓颉创造了文字，嫘祖开始制作衣裳。",
-    "note_detail": "传说仓颉造字，黄帝之妻嫘祖发明养蚕织丝。衣，上衣。裳，下裙。"
+    "note_detail": "传说仓颉造字，黄帝之妻嫘祖发明养蚕织丝。衣，上衣。裳，下裙。",
+    "note_en": "Cangjie created writing; Leizu began making clothes.",
+    "note_detail_en": "Legend says Cangjie invented Chinese characters, and Leizu, wife of the Yellow Emperor, invented silkworm rearing and silk weaving. Yi means upper garment; chang means lower skirt."
   },
   {
     "id": 12,
@@ -345,7 +367,9 @@
       "táng"
     ],
     "note": "尧帝把帝位禅让给舜帝，这就是有虞氏和陶唐氏的故事。",
-    "note_detail": "推位让国，指尧舜禅让。有虞，舜帝的氏族。陶唐，尧帝的氏族。禅让制是上古理想政治。"
+    "note_detail": "推位让国，指尧舜禅让。有虞，舜帝的氏族。陶唐，尧帝的氏族。禅让制是上古理想政治。",
+    "note_en": "Yielding the throne to pass on the kingdom—this was the story of Youyu and Taotang.",
+    "note_detail_en": "Refers to the abdication system. Youyu was Emperor Shun's clan. Taotang was Emperor Yao's clan. Abdication was the ideal political system of ancient times."
   },
   {
     "id": 13,
@@ -374,7 +398,9 @@
       "tāng"
     ],
     "note": "安抚百姓、讨伐暴君，这是周武王和商汤王的功绩。",
-    "note_detail": "吊民伐罪，安慰百姓、讨伐有罪之人。周发，周武王姬发。殷汤，商汤王。两者都是以仁义推翻暴政。"
+    "note_detail": "吊民伐罪，安慰百姓、讨伐有罪之人。周发，周武王姬发。殷汤，商汤王。两者都是以仁义推翻暴政。",
+    "note_en": "Comforting the people and punishing the guilty—these were the achievements of King Wu of Zhou and King Tang of Shang.",
+    "note_detail_en": "Diao min fa zui means comforting the people and punishing the guilty. Zhou Fa is King Wu of Zhou (Ji Fa). Yin Tang is King Tang of Shang. Both overthrew tyranny through righteousness."
   },
   {
     "id": 14,
@@ -403,7 +429,9 @@
       "zhāng"
     ],
     "note": "君王坐在朝堂上询问治国之道，垂衣拱手就能使天下太平。",
-    "note_detail": "坐朝问道，君王临朝听政。垂拱，垂衣拱手，形容无为而治。平章，辨明彰显。"
+    "note_detail": "坐朝问道，君王临朝听政。垂拱，垂衣拱手，形容无为而治。平章，辨明彰显。",
+    "note_en": "The ruler sits in court seeking the Way of governance; ruling effortlessly with folded hands brings peace.",
+    "note_detail_en": "Zuo chao wen dao means the ruler holds court and listens to governance. Chui gong means ruling effortlessly. Ping zhang means to illuminate and manifest."
   },
   {
     "id": 15,
@@ -432,7 +460,9 @@
       "qiāng"
     ],
     "note": "爱护养育天下百姓，使四方少数民族都臣服归顺。",
-    "note_detail": "黎首，百姓，黎民。戎羌，西方少数民族的统称。伏，臣服。"
+    "note_detail": "黎首，百姓，黎民。戎羌，西方少数民族的统称。伏，臣服。",
+    "note_en": "Loving and nurturing all people, so that frontier peoples submit and pledge allegiance.",
+    "note_detail_en": "Lishou means the common people. Rong Qiang is a general term for western frontier peoples. Fu means to submit."
   },
   {
     "id": 16,
@@ -461,7 +491,9 @@
       "wáng"
     ],
     "note": "远近都统一为一体，所有人都归顺于王。",
-    "note_detail": "遐，远方。迩，近处。率宾，率土之滨。归王，归顺天子。出自《诗经》「普天之下，莫非王土」。"
+    "note_detail": "遐，远方。迩，近处。率宾，率土之滨。归王，归顺天子。出自《诗经》「普天之下，莫非王土」。",
+    "note_en": "Far and near are united as one; all people come to pay homage to the king.",
+    "note_detail_en": "Xia means far away. Er means nearby. Shuai bin means all within the realm. Gui wang means to submit to the sovereign. From the Book of Songs: 'Under all heaven, there is no land that is not the king's.'"
   },
   {
     "id": 17,
@@ -490,7 +522,9 @@
       "chǎng"
     ],
     "note": "凤凰在竹林中鸣叫，白马在草场上吃草。",
-    "note_detail": "鸣凤在竹，凤凰来仪，太平盛世之象。白驹食场，出自《诗经·白驹》，比喻贤人隐居。"
+    "note_detail": "鸣凤在竹，凤凰来仪，太平盛世之象。白驹食场，出自《诗经·白驹》，比喻贤人隐居。",
+    "note_en": "Phoenixes sing in bamboo groves; white colts graze in the meadow.",
+    "note_detail_en": "Phoenixes singing in bamboo symbolizes a golden age of peace. White colts grazing is from the Book of Songs, metaphor for a worthy person in seclusion."
   },
   {
     "id": 18,
@@ -519,7 +553,9 @@
       "fāng"
     ],
     "note": "圣王的教化覆盖草木万物，恩泽遍及天下四方。",
-    "note_detail": "化被，教化覆盖。草木，代指万物。赖及，恩泽惠及。万方，天下各方。"
+    "note_detail": "化被，教化覆盖。草木，代指万物。赖及，恩泽惠及。万方，天下各方。",
+    "note_en": "The sage-king's influence covers all vegetation; his grace extends to every corner of the world.",
+    "note_detail_en": "Hua bei means the influence of civilization covers. Cao mu represents all living things. Lai ji means grace extends to. Wan fang means all directions under heaven."
   },
   {
     "id": 19,
@@ -548,7 +584,9 @@
       "cháng"
     ],
     "note": "人的身体发肤，受之于四大和五常。",
-    "note_detail": "四大，地水火风（佛家）或仁义礼智（儒家解释不同）。五常，仁义礼智信。身发，出自《孝经》「身体发肤，受之父母」。"
+    "note_detail": "四大，地水火风（佛家）或仁义礼智（儒家解释不同）。五常，仁义礼智信。身发，出自《孝经》「身体发肤，受之父母」。",
+    "note_en": "Our body and hair are governed by the Four Elements and Five Constants.",
+    "note_detail_en": "Si da refers to earth, water, fire, and wind (Buddhist) or benevolence, righteousness, propriety, and wisdom (Confucian interpretations vary). Wu chang refers to benevolence, righteousness, propriety, wisdom, and trustworthiness. From the Classic of Filial Piety: 'Our body, hair, and skin are received from our parents.'"
   },
   {
     "id": 20,
@@ -577,7 +615,9 @@
       "shāng"
     ],
     "note": "恭敬地想到父母的养育之恩，怎么敢毁伤自己的身体呢？",
-    "note_detail": "鞠养，抚养。出自《孝经》「身体发肤，受之父母，不敢毁伤，孝之始也」。"
+    "note_detail": "鞠养，抚养。出自《孝经》「身体发肤，受之父母，不敢毁伤，孝之始也」。",
+    "note_en": "Reverently thinking of our parents' nurturing, how dare we damage ourselves?",
+    "note_detail_en": "Ju yang means to nurture and raise. From the Classic of Filial Piety: 'Our body, hair, and skin are received from our parents; we dare not damage them—this is the beginning of filial piety.'"
   },
   {
     "id": 21,
@@ -606,7 +646,9 @@
       "liáng"
     ],
     "note": "女子要仰慕贞洁的品德，男子要效法才德兼备的贤人。",
-    "note_detail": "贞洁，忠贞纯洁。才良，才能与善良兼备。古代对男女品德的基本要求。"
+    "note_detail": "贞洁，忠贞纯洁。才良，才能与善良兼备。古代对男女品德的基本要求。",
+    "note_en": "Women should admire chastity and purity; men should emulate talent and virtue.",
+    "note_detail_en": "Zhenjie means chaste and pure. Cailiang means possessing both talent and goodness. These were the basic moral expectations for men and women in ancient times."
   },
   {
     "id": 22,
@@ -635,7 +677,9 @@
       "wàng"
     ],
     "note": "知道自己有过错一定要改正，学到了本领不要忘记。",
-    "note_detail": "出自《论语》「过则勿惮改」。得能，获得才能。莫忘，不要忘记，要温故知新。"
+    "note_detail": "出自《论语》「过则勿惮改」。得能，获得才能。莫忘，不要忘记，要温故知新。",
+    "note_en": "If you know your faults, you must correct them; once you gain ability, never forget it.",
+    "note_detail_en": "From the Analerta: 'When you make a mistake, do not hesitate to correct it.' De neng means acquiring ability. Mo wang means never forget; review and learn anew."
   },
   {
     "id": 23,
@@ -664,7 +708,9 @@
       "cháng"
     ],
     "note": "不要谈论别人的短处，不要仗恃自己的长处。",
-    "note_detail": "罔，不要。靡，不要。恃，依仗。短长，缺点和优点。为人处世的谦逊之道。"
+    "note_detail": "罔，不要。靡，不要。恃，依仗。短长，缺点和优点。为人处世的谦逊之道。",
+    "note_en": "Do not speak of others' shortcomings; do not boast of your own strengths.",
+    "note_detail_en": "Wang means do not. Mi means do not. Shi means to rely upon. Duan chang means faults and merits. The way of humility in dealing with others."
   },
   {
     "id": 24,
@@ -693,7 +739,9 @@
       "liáng"
     ],
     "note": "诚信要经得起反复验证，器度要大到难以估量。",
-    "note_detail": "覆，反复验证。器，器量、度量。量，衡量。强调诚信与胸怀的重要性。"
+    "note_detail": "覆，反复验证。器，器量、度量。量，衡量。强调诚信与胸怀的重要性。",
+    "note_en": "Trustworthiness should withstand repeated testing; one's capacity should be immeasurably great.",
+    "note_detail_en": "Fu means to verify repeatedly. Qi means capacity, magnanimity. Liang means to measure. Emphasizes the importance of integrity and broad-mindedness."
   },
   {
     "id": 25,
@@ -722,7 +770,9 @@
       "yáng"
     ],
     "note": "墨子看到白丝被染色而悲叹，《诗经》赞美羔羊般纯洁的品德。",
-    "note_detail": "墨悲丝染，墨子见素丝染色而叹人受环境影响。诗赞羔羊，《诗经·羔羊》赞美官员清廉如羔羊之洁白。"
+    "note_detail": "墨悲丝染，墨子见素丝染色而叹人受环境影响。诗赞羔羊，《诗经·羔羊》赞美官员清廉如羔羊之洁白。",
+    "note_en": "Mozi wept seeing white silk being dyed; the Book of Songs praised the purity of lambs.",
+    "note_detail_en": "Mozi lamented that white silk, once dyed, could not return to its original state—a metaphor for how environment shapes people. The Book of Songs' 'Lamb' praises officials as pure as white lambs."
   },
   {
     "id": 26,
@@ -751,7 +801,9 @@
       "shèng"
     ],
     "note": "仰慕高尚的德行就能成为贤人，能够自省就能成为圣人。",
-    "note_detail": "景行，高尚的德行，出自《诗经》「高山仰止，景行行止」。克念，能够自我省察。"
+    "note_detail": "景行，高尚的德行，出自《诗经》「高山仰止，景行行止」。克念，能够自我省察。",
+    "note_en": "Admiring noble conduct makes one worthy; constant self-reflection makes one a sage.",
+    "note_detail_en": "Jingxing means noble conduct, from the Book of Songs: 'Like a lofty mountain to gaze upon, like a great road to follow.' Ke nian means being able to self-reflect."
   },
   {
     "id": 27,
@@ -780,7 +832,9 @@
       "zhèng"
     ],
     "note": "品德建立了，名声也就树立了。形体端正了，仪表也就端正了。",
-    "note_detail": "德建名立，有德则有名。形端表正，内在端正则外表自然端庄。强调内外兼修。"
+    "note_detail": "德建名立，有德则有名。形端表正，内在端正则外表自然端庄。强调内外兼修。",
+    "note_en": "When virtue is established, reputation follows; when form is upright, appearance is proper.",
+    "note_detail_en": "De jian ming li: having virtue brings reputation. Xing duan biao zheng: inner uprightness naturally shows in outward appearance. Emphasizes cultivating both inner and outer qualities."
   },
   {
     "id": 28,
@@ -809,7 +863,9 @@
       "tīng"
     ],
     "note": "空旷的山谷中能传播回声，空荡的厅堂里声音会反复回响。",
-    "note_detail": "比喻好的名声会广泛传播。空谷传声，虚堂习听，都是以声音传播比喻德行的影响力。"
+    "note_detail": "比喻好的名声会广泛传播。空谷传声，虚堂习听，都是以声音传播比喻德行的影响力。",
+    "note_en": "An empty valley carries sound; an empty hall echoes repeatedly.",
+    "note_detail_en": "A metaphor for how good reputation spreads widely. Both empty valley echoes and empty hall reverberations illustrate how virtue's influence extends far."
   },
   {
     "id": 29,
@@ -838,7 +894,9 @@
       "qìng"
     ],
     "note": "灾祸是因为恶行积累而来，福气是因为善行积累而至。",
-    "note_detail": "出自《易经》「积善之家必有余庆，积不善之家必有余殃」。因果报应的思想。"
+    "note_detail": "出自《易经》「积善之家必有余庆，积不善之家必有余殃」。因果报应的思想。",
+    "note_en": "Misfortune comes from accumulated evil; fortune comes from accumulated good.",
+    "note_detail_en": "From the Book of Changes: 'A family that accumulates good deeds will have abundant blessings; a family that accumulates evil will have abundant misfortune.' The concept of karmic cause and effect."
   },
   {
     "id": 30,
@@ -867,7 +925,9 @@
       "jìng"
     ],
     "note": "一尺长的璧玉不算宝贝，一寸光阴才值得珍惜。",
-    "note_detail": "尺璧，一尺大的玉璧。寸阴，极短的时间。竞，珍惜争取。出自《淮南子》「圣人不贵尺之璧而重寸之阴」。"
+    "note_detail": "尺璧，一尺大的玉璧。寸阴，极短的时间。竞，珍惜争取。出自《淮南子》「圣人不贵尺之璧而重寸之阴」。",
+    "note_en": "A foot-long jade disc is not the true treasure; an inch of time is what we should cherish.",
+    "note_detail_en": "Chi bi means a jade disc one foot in diameter. Cun yin means the briefest moment. Jing means to cherish and pursue. From Huainanzi: 'The sage does not value a foot of jade but values an inch of time.'"
   },
   {
     "id": 31,
@@ -896,7 +956,9 @@
       "jìng"
     ],
     "note": "侍奉父亲和君主，要做到严肃和恭敬。",
-    "note_detail": "资，侍奉。事，服侍。严，庄严恭敬对待父亲。敬，恭敬对待君主。儒家忠孝思想的体现。"
+    "note_detail": "资，侍奉。事，服侍。严，庄严恭敬对待父亲。敬，恭敬对待君主。儒家忠孝思想的体现。",
+    "note_en": "In serving father and sovereign, one must be solemn and respectful.",
+    "note_detail_en": "Zi means to serve. Shi means to attend. Yan means solemn reverence toward one's father. Jing means respectful toward one's sovereign. Reflects Confucian values of loyalty and filial piety."
   },
   {
     "id": 32,
@@ -925,7 +987,9 @@
       "mìng"
     ],
     "note": "孝顺父母应当竭尽全力，忠于君主应当不惜生命。",
-    "note_detail": "竭力，用尽全部力量。尽命，奉献生命。儒家忠孝观的核心表述。"
+    "note_detail": "竭力，用尽全部力量。尽命，奉献生命。儒家忠孝观的核心表述。",
+    "note_en": "Filial piety demands utmost effort; loyalty demands one's very life.",
+    "note_detail_en": "Jie li means to exhaust all strength. Jin ming means to devote one's life. The core expression of Confucian loyalty and filial piety."
   },
   {
     "id": 33,
@@ -954,7 +1018,9 @@
       "qìng"
     ],
     "note": "做人要如临深渊、如履薄冰般谨慎。早起侍奉父母，冬温夏凉。",
-    "note_detail": "临深履薄，出自《诗经》，比喻小心谨慎。夙兴，早起。温凊，冬天温暖被褥、夏天扇凉枕席，侍奉父母的礼节。"
+    "note_detail": "临深履薄，出自《诗经》，比喻小心谨慎。夙兴，早起。温凊，冬天温暖被褥、夏天扇凉枕席，侍奉父母的礼节。",
+    "note_en": "Be as cautious as standing at the edge of an abyss or treading on thin ice. Rise early to warm parents' beds in winter and cool them in summer.",
+    "note_detail_en": "Lin shen lv bo is from the Book of Songs, meaning extreme caution. Su xing means rising early. Wen qing means warming bedding in winter and cooling pillows in summer—rituals of serving parents."
   },
   {
     "id": 34,
@@ -983,7 +1049,9 @@
       "shèng"
     ],
     "note": "品德要像兰花一样芬芳，操守要像松树一样茂盛。",
-    "note_detail": "兰，兰花，君子之花。松，松树，象征坚贞不屈。以自然之物比喻人的品德。"
+    "note_detail": "兰，兰花，君子之花。松，松树，象征坚贞不屈。以自然之物比喻人的品德。",
+    "note_en": "Let your character be fragrant like orchids and flourishing like pines.",
+    "note_detail_en": "Lan refers to orchids, the flower of the gentleman. Song refers to pine trees, symbolizing steadfast integrity. Using nature to metaphorize human virtue."
   },
   {
     "id": 35,
@@ -1012,7 +1080,9 @@
       "yìng"
     ],
     "note": "河水川流不息永不停歇，深潭清澈可以映照万物。",
-    "note_detail": "川流不息，比喻德行的持续修养。渊澄取映，比喻心境澄明则能洞察事物。"
+    "note_detail": "川流不息，比喻德行的持续修养。渊澄取映，比喻心境澄明则能洞察事物。",
+    "note_en": "Rivers flow ceaselessly; deep pools, being clear, reflect all things.",
+    "note_detail_en": "Chuan liu bu xi metaphorizes the continuous cultivation of virtue. Yuan cheng qu ying metaphorizes how a clear mind can perceive all things."
   },
   {
     "id": 36,
@@ -1041,7 +1111,9 @@
       "dìng"
     ],
     "note": "仪容举止要沉稳如有所思，言语谈吐要安详稳定。",
-    "note_detail": "容止，仪容举止。若思，好像在思考，形容沉稳。安定，安详从容。君子修身的外在表现。"
+    "note_detail": "容止，仪容举止。若思，好像在思考，形容沉稳。安定，安详从容。君子修身的外在表现。",
+    "note_en": "One's bearing should be calm and thoughtful; one's speech should be steady and composed.",
+    "note_detail_en": "Rong zhi means bearing and deportment. Ruo si means as if in contemplation, describing composure. An ding means serene and composed. The outward expression of a gentleman's self-cultivation."
   },
   {
     "id": 37,
@@ -1070,7 +1142,9 @@
       "lìng"
     ],
     "note": "开始时要真诚美好，结束时要谨慎完善。",
-    "note_detail": "笃初，认真对待开始。慎终，谨慎对待结尾。宜令，适当美好。强调善始善终。"
+    "note_detail": "笃初，认真对待开始。慎终，谨慎对待结尾。宜令，适当美好。强调善始善终。",
+    "note_en": "Be sincere and beautiful at the start; be careful and excellent at the end.",
+    "note_detail_en": "Du chu means to take the beginning seriously. Shen zhong means to be careful at the end. Yi ling means appropriately excellent. Emphasizes finishing well what one starts."
   },
   {
     "id": 38,
@@ -1099,7 +1173,9 @@
       "jìng"
     ],
     "note": "荣耀的事业有其根基，学问的深广没有止境。",
-    "note_detail": "荣业，光荣的事业。所基，根基所在。籍甚，声名显赫。无竟，没有穷尽。"
+    "note_detail": "荣业，光荣的事业。所基，根基所在。籍甚，声名显赫。无竟，没有穷尽。",
+    "note_en": "Glorious achievements have their foundations; learning and fame know no bounds.",
+    "note_detail_en": "Rong ye means glorious achievements. Suo ji means the foundation. Ji shen means great renown. Wu jing means without end."
   },
   {
     "id": 39,
@@ -1128,7 +1204,9 @@
       "zhèng"
     ],
     "note": "学问优秀就可以做官，担任职务参与政事。",
-    "note_detail": "出自《论语》「学而优则仕」。登仕，进入仕途。摄职，担任职务。从政，参与政治。"
+    "note_detail": "出自《论语》「学而优则仕」。登仕，进入仕途。摄职，担任职务。从政，参与政治。",
+    "note_en": "When learning excels, one enters government service; taking office, one participates in governance.",
+    "note_detail_en": "From the Analects: 'When one excels in learning, one should serve in government.' Deng shi means entering officialdom. She zhi means assuming office. Cong zheng means participating in politics."
   },
   {
     "id": 40,
@@ -1157,7 +1235,9 @@
       "yǒng"
     ],
     "note": "召公留下甘棠树的美名，离去后人们更加歌咏怀念。",
-    "note_detail": "甘棠，召公曾在甘棠树下理政，百姓爱其树以怀其人。出自《诗经·甘棠》。益咏，更加歌咏。"
+    "note_detail": "甘棠，召公曾在甘棠树下理政，百姓爱其树以怀其人。出自《诗经·甘棠》。益咏，更加歌咏。",
+    "note_en": "Duke Shao left behind the legacy of the sweet pear tree; after his departure, people sang his praises even more.",
+    "note_detail_en": "Duke Shao once administered justice under a sweet pear tree; the people loved the tree in memory of him. From the Book of Songs' 'Gantang.' Yi yong means to sing praises even more."
   },
   {
     "id": 41,
@@ -1186,7 +1266,9 @@
       "bēi"
     ],
     "note": "音乐因贵贱不同而有区别，礼仪因尊卑不同而有差异。",
-    "note_detail": "古代礼乐制度，不同身份等级有不同的音乐和礼仪规格。殊，不同。别，区别。"
+    "note_detail": "古代礼乐制度，不同身份等级有不同的音乐和礼仪规格。殊，不同。别，区别。",
+    "note_en": "Music differs according to rank; ritual distinguishes between high and low.",
+    "note_detail_en": "In the ancient ritual-music system, different ranks had different music and ceremonial protocols. Shu means different. Bie means to distinguish."
   },
   {
     "id": 42,
@@ -1215,7 +1297,9 @@
       "suí"
     ],
     "note": "上下和睦相处，夫妻和谐相随。",
-    "note_detail": "上和下睦，上级和下级和睦。夫唱妇随，丈夫倡导妻子跟随，形容夫妻和谐。"
+    "note_detail": "上和下睦，上级和下级和睦。夫唱妇随，丈夫倡导妻子跟随，形容夫妻和谐。",
+    "note_en": "Superiors and subordinates live in harmony; husband leads and wife follows.",
+    "note_detail_en": "Shang he xia mu means harmony between superiors and subordinates. Fu chang fu sui means the husband leads and the wife follows, describing marital harmony."
   },
   {
     "id": 43,
@@ -1244,7 +1328,9 @@
       "yí"
     ],
     "note": "在外接受老师的教导，在家遵从母亲的教诲。",
-    "note_detail": "傅训，师傅的教训。母仪，母亲的仪范。古代教育内外兼修的理念。"
+    "note_detail": "傅训，师傅的教训。母仪，母亲的仪范。古代教育内外兼修的理念。",
+    "note_en": "Outside, receive instruction from teachers; at home, follow mother's example.",
+    "note_detail_en": "Fu xun means the teacher's instruction. Mu yi means the mother's model. The ancient concept of education combining external and internal cultivation."
   },
   {
     "id": 44,
@@ -1273,7 +1359,9 @@
       "ér"
     ],
     "note": "对待姑姑、伯伯、叔叔等亲属，要像对待自己的孩子一样亲近。",
-    "note_detail": "诸姑伯叔，各种亲属。犹子比儿，像对待自己的子女一样。强调家族亲情。"
+    "note_detail": "诸姑伯叔，各种亲属。犹子比儿，像对待自己的子女一样。强调家族亲情。",
+    "note_en": "Treat aunts, uncles, and elders as closely as your own children.",
+    "note_detail_en": "Zhu gu bo shu refers to various relatives. You zi bi er means treating them like one's own children. Emphasizes family affection."
   },
   {
     "id": 45,
@@ -1302,7 +1390,9 @@
       "zhī"
     ],
     "note": "兄弟之间要非常关怀，因为同气连枝、血脉相连。",
-    "note_detail": "孔怀，非常关怀，出自《诗经》「死丧之威，兄弟孔怀」。同气连枝，比喻兄弟如同一棵树的枝干。"
+    "note_detail": "孔怀，非常关怀，出自《诗经》「死丧之威，兄弟孔怀」。同气连枝，比喻兄弟如同一棵树的枝干。",
+    "note_en": "Brothers should care deeply for each other, for they share the same breath and are branches of one tree.",
+    "note_detail_en": "Kong huai means to care deeply, from the Book of Songs: 'In times of death and mourning, brothers care most deeply.' Tong qi lian zhi compares brothers to branches of the same tree."
   },
   {
     "id": 46,
@@ -1331,7 +1421,9 @@
       "guī"
     ],
     "note": "交朋友要志趣相投，互相切磋、规劝勉励。",
-    "note_detail": "投分，志趣相投。切磨，切磋琢磨。箴规，规劝告诫。出自《论语》「以文会友，以友辅仁」。"
+    "note_detail": "投分，志趣相投。切磨，切磋琢磨。箴规，规劝告诫。出自《论语》「以文会友，以友辅仁」。",
+    "note_en": "Make friends with those of similar interests; encourage and advise each other through mutual learning.",
+    "note_detail_en": "Tou fen means sharing similar interests. Qie mo means learning from each other. Zhen gui means to advise and admonish. From the Analects: 'Through literature, friends gather; through friends, benevolence is aided.'"
   },
   {
     "id": 47,
@@ -1360,7 +1452,9 @@
       "lí"
     ],
     "note": "仁爱慈悲、恻隐之心，即使在仓促之间也不能离弃。",
-    "note_detail": "隐恻，同情怜悯之心。造次，仓促之间。弗离，不离开。出自《论语》「君子无终食之间违仁，造次必于是」。"
+    "note_detail": "隐恻，同情怜悯之心。造次，仓促之间。弗离，不离开。出自《论语》「君子无终食之间违仁，造次必于是」。",
+    "note_en": "Benevolence, compassion, and sympathy must never be abandoned, even in the most hurried moments.",
+    "note_detail_en": "Yin ce means sympathy and compassion. Zao ci means in a hurried moment. Fu li means not to abandon. From the Analects: 'A gentleman does not abandon benevolence even for the time of a single meal.'"
   },
   {
     "id": 48,
@@ -1389,7 +1483,9 @@
       "kuī"
     ],
     "note": "气节、道义、廉洁、谦退，即使在颠沛流离中也不能亏损。",
-    "note_detail": "节义廉退，四种美德。颠沛，困顿流离。匪亏，不亏损。出自《论语》「颠沛必于是」。"
+    "note_detail": "节义廉退，四种美德。颠沛，困顿流离。匪亏，不亏损。出自《论语》「颠沛必于是」。",
+    "note_en": "Integrity, righteousness, honesty, and humility must not be compromised even in times of hardship.",
+    "note_detail_en": "Jie yi lian tui are four virtues. Dian pei means in times of hardship and displacement. Fei kui means not to diminish. From the Analects: 'Even in times of hardship, one must hold to these.'"
   },
   {
     "id": 49,
@@ -1418,7 +1514,9 @@
       "pí"
     ],
     "note": "本性安静则心情安逸，心思躁动则精神疲惫。",
-    "note_detail": "性静，本性宁静。情逸，心情安逸。心动，心思妄动。神疲，精神疲惫。修身养性之道。"
+    "note_detail": "性静，本性宁静。情逸，心情安逸。心动，心思妄动。神疲，精神疲惫。修身养性之道。",
+    "note_en": "When one's nature is calm, emotions are at ease; when the mind is restless, the spirit grows weary.",
+    "note_detail_en": "Xing jing means a calm nature. Qing yi means emotional ease. Xin dong means a restless mind. Shen pi means spiritual exhaustion. The way of self-cultivation."
   },
   {
     "id": 50,
@@ -1447,7 +1545,9 @@
       "yí"
     ],
     "note": "坚守真性则志向充实，追逐外物则心意转移。",
-    "note_detail": "守真，坚守本真。志满，志向充实。逐物，追逐外在事物。意移，心意改变。道家清静无为的思想。"
+    "note_detail": "守真，坚守本真。志满，志向充实。逐物，追逐外在事物。意移，心意改变。道家清静无为的思想。",
+    "note_en": "Guard your true nature and your aspirations will be fulfilled; chase after material things and your resolve will waver.",
+    "note_detail_en": "Shou zhen means guarding one's true nature. Zhi man means aspirations fulfilled. Zhu wu means chasing external things. Yi yi means resolve shifting. Daoist philosophy of quietude and non-action."
   },
   {
     "id": 51,
@@ -1476,7 +1576,9 @@
       "mí"
     ],
     "note": "坚持高雅的操守，好的爵位自然会来。",
-    "note_detail": "雅操，高雅的节操。好爵，好的爵位。縻，系住、牵住。出自《诗经》「好爵自縻」。"
+    "note_detail": "雅操，高雅的节操。好爵，好的爵位。縻，系住、牵住。出自《诗经》「好爵自縻」。",
+    "note_en": "Hold fast to noble principles, and good fortune will naturally come.",
+    "note_detail_en": "Ya cao means noble principles. Hao jue means good fortune or rank. Zi mi means naturally bound to you. From the Book of Songs: 'Good fortune binds itself to the worthy.'"
   },
   {
     "id": 52,
@@ -1505,7 +1607,9 @@
       "jīng"
     ],
     "note": "都城是华夏文明的中心，东京洛阳和西京长安是两大都城。",
-    "note_detail": "都邑，都城。华夏，中国的古称。东京，洛阳。西京，长安（今西安）。二京并立是汉代格局。"
+    "note_detail": "都邑，都城。华夏，中国的古称。东京，洛阳。西京，长安（今西安）。二京并立是汉代格局。",
+    "note_en": "The capital cities of China: Eastern Capital Luoyang and Western Capital Chang'an.",
+    "note_detail_en": "Du yi means capital cities. Hua Xia is an ancient name for China. Dong jing is Luoyang. Xi jing is Chang'an (modern Xi'an). The two capitals coexisted during the Han dynasty."
   },
   {
     "id": 53,
@@ -1534,7 +1638,9 @@
       "jīng"
     ],
     "note": "洛阳背靠邙山面临洛水，长安浮渭水而据泾河。",
-    "note_detail": "邙，北邙山，在洛阳北。洛，洛水。渭、泾，渭河和泾河，流经长安。描述两京的地理形势。"
+    "note_detail": "邙，北邙山，在洛阳北。洛，洛水。渭、泾，渭河和泾河，流经长安。描述两京的地理形势。",
+    "note_en": "Luoyang has Mang Mountain behind it and faces the Luo River; Chang'an floats on the Wei and commands the Jing.",
+    "note_detail_en": "Mang is North Mang Mountain, north of Luoyang. Luo is the Luo River. Wei and Jing are the Wei and Jing Rivers flowing through Chang'an. Describes the geography of the two capitals."
   },
   {
     "id": 54,
@@ -1563,7 +1669,9 @@
       "jīng"
     ],
     "note": "宫殿盘旋曲折、郁郁葱葱，楼阁高耸飞檐令人惊叹。",
-    "note_detail": "盘郁，盘旋曲折、繁茂壮丽。飞惊，飞檐高耸令人惊叹。描写都城宫殿的壮观。"
+    "note_detail": "盘郁，盘旋曲折、繁茂壮丽。飞惊，飞檐高耸令人惊叹。描写都城宫殿的壮观。",
+    "note_en": "Palaces wind and twist magnificently; towers soar with startling flying eaves.",
+    "note_detail_en": "Pan yu means winding and magnificent. Fei jing means soaring eaves that astonish. Describes the grandeur of the capital's palaces."
   },
   {
     "id": 55,
@@ -1592,7 +1700,9 @@
       "líng"
     ],
     "note": "宫殿中画着飞禽走兽，彩绘着神仙灵物。",
-    "note_detail": "图写，描绘。禽兽，飞禽走兽。画彩，彩色绘画。仙灵，神仙灵物。描写宫殿内的装饰。"
+    "note_detail": "图写，描绘。禽兽，飞禽走兽。画彩，彩色绘画。仙灵，神仙灵物。描写宫殿内的装饰。",
+    "note_en": "Paintings depict birds and beasts; colorful murals show immortals and spirits.",
+    "note_detail_en": "Tu xie means to depict. Qin shou means birds and beasts. Hua cai means colorful paintings. Xian ling means immortals and spirits. Describes palace decorations."
   },
   {
     "id": 56,
@@ -1621,7 +1731,9 @@
       "yíng"
     ],
     "note": "丙舍在旁边开设，甲帐对着楹柱。",
-    "note_detail": "丙舍，宫中的别室。傍启，在旁边开设。甲帐，华丽的帐幕。楹，厅堂前的柱子。描写宫殿内部布局。"
+    "note_detail": "丙舍，宫中的别室。傍启，在旁边开设。甲帐，华丽的帐幕。楹，厅堂前的柱子。描写宫殿内部布局。",
+    "note_en": "Side chambers open alongside; ornate curtains face the pillars.",
+    "note_detail_en": "Bing she means side chambers in the palace. Bang qi means opening alongside. Jia zhang means ornate curtains. Ying means hall pillars. Describes the interior layout of the palace."
   },
   {
     "id": 57,
@@ -1650,7 +1762,9 @@
       "shēng"
     ],
     "note": "摆设筵席招待宾客，弹奏瑟和吹奏笙来助兴。",
-    "note_detail": "肆筵设席，铺设筵席。鼓瑟，弹奏瑟。吹笙，吹奏笙。描写宫廷宴饮的场景。"
+    "note_detail": "肆筵设席，铺设筵席。鼓瑟，弹奏瑟。吹笙，吹奏笙。描写宫廷宴饮的场景。",
+    "note_en": "Banquet tables are set with feasts; zithers are played and reed pipes blown.",
+    "note_detail_en": "Si yan she xi means setting up banquet tables. Gu se means playing the zither. Chui sheng means blowing reed pipes. Describes court banquet scenes."
   },
   {
     "id": 58,
@@ -1679,7 +1793,9 @@
       "xīng"
     ],
     "note": "登上台阶走近御座，官帽转动如同星辰闪烁。",
-    "note_detail": "升阶，登上台阶。纳陛，走近帝王的台阶。弁，古代的官帽。转疑星，帽上装饰转动如星光。"
+    "note_detail": "升阶，登上台阶。纳陛，走近帝王的台阶。弁，古代的官帽。转疑星，帽上装饰转动如星光。",
+    "note_en": "Ascending the steps to approach the throne, ceremonial caps turning like stars.",
+    "note_detail_en": "Sheng jie means ascending the steps. Na bi means approaching the emperor's platform. Bian means ancient ceremonial caps. Zhuan yi xing means cap ornaments turning like starlight."
   },
   {
     "id": 59,
@@ -1708,7 +1824,9 @@
       "míng"
     ],
     "note": "右边通向广内殿，左边到达承明殿。",
-    "note_detail": "广内，汉代宫殿名，藏书之所。承明，汉代宫殿名，朝臣待诏之处。描写宫殿的布局。"
+    "note_detail": "广内，汉代宫殿名，藏书之所。承明，汉代宫殿名，朝臣待诏之处。描写宫殿的布局。",
+    "note_en": "To the right leads to the Guangnei Hall; to the left reaches the Chengming Hall.",
+    "note_detail_en": "Guangnei was a Han dynasty palace hall for storing books. Chengming was a Han dynasty palace hall where officials awaited imperial summons. Describes the palace layout."
   },
   {
     "id": 60,
@@ -1737,7 +1855,9 @@
       "yīng"
     ],
     "note": "这里既收集了古代典籍，也聚集了天下英才。",
-    "note_detail": "坟典，三坟五典，泛指古代经典书籍。群英，众多英才。描写宫廷的文化氛围。"
+    "note_detail": "坟典，三坟五典，泛指古代经典书籍。群英，众多英才。描写宫廷的文化氛围。",
+    "note_en": "Here are gathered ancient classics and assembled the realm's finest talents.",
+    "note_detail_en": "Fen dian refers to the Three Tombs and Five Classics, ancient canonical texts. Qun ying means many talented people. Describes the cultural atmosphere of the court."
   },
   {
     "id": 61,
@@ -1766,7 +1886,9 @@
       "jīng"
     ],
     "note": "杜度的草书、钟繇的隶书，漆书和壁经都是珍贵的书法文献。",
-    "note_detail": "杜稿，杜度的草书稿。钟隶，钟繇的隶书。漆书，用漆写的古书。壁经，藏在墙壁中的经书。"
+    "note_detail": "杜稿，杜度的草书稿。钟隶，钟繇的隶书。漆书，用漆写的古书。壁经，藏在墙壁中的经书。",
+    "note_en": "Du Du's cursive script and Zhong You's clerical script; lacquer-written texts and wall-hidden scriptures.",
+    "note_detail_en": "Du gao refers to Du Du's cursive calligraphy. Zhong li refers to Zhong You's clerical script. Qi shu means texts written in lacquer. Bi jing means scriptures hidden in walls."
   },
   {
     "id": 62,
@@ -1795,7 +1917,9 @@
       "qīng"
     ],
     "note": "官府中罗列着将相，道路旁种着槐树标志着三公九卿。",
-    "note_detail": "府罗将相，官府中聚集着将军和宰相。路侠槐卿，道路两旁种槐树，古代以三槐代指三公。"
+    "note_detail": "府罗将相，官府中聚集着将军和宰相。路侠槐卿，道路两旁种槐树，古代以三槐代指三公。",
+    "note_en": "Government offices are filled with generals and ministers; roads are lined with scholar-trees marking the Three Dukes.",
+    "note_detail_en": "Fu luo jiang xiang means offices filled with generals and ministers. Lu xia huai qing means roads lined with scholar-trees, which in ancient times symbolized the Three Dukes."
   },
   {
     "id": 63,
@@ -1824,7 +1948,9 @@
       "bīng"
     ],
     "note": "封地有八个县那么大，家中配给上千名士兵。",
-    "note_detail": "户封八县，食邑封地有八个县。家给千兵，家中配有千名士兵。描写功臣的荣耀待遇。"
+    "note_detail": "户封八县，食邑封地有八个县。家给千兵，家中配有千名士兵。描写功臣的荣耀待遇。",
+    "note_en": "Fiefdoms spanning eight counties; households supplied with a thousand soldiers.",
+    "note_detail_en": "Hu feng ba xian means fiefdoms spanning eight counties. Jia ji qian bing means households supplied with a thousand soldiers. Describes the glorious treatment of meritorious officials."
   },
   {
     "id": 64,
@@ -1853,7 +1979,9 @@
       "yīng"
     ],
     "note": "戴着高冠陪伴在帝王车驾旁，驱车前行帽缨飘动。",
-    "note_detail": "高冠，高高的官帽。辇，帝王的车。毂，车轮。缨，帽带。描写朝臣随驾的威仪。"
+    "note_detail": "高冠，高高的官帽。辇，帝王的车。毂，车轮。缨，帽带。描写朝臣随驾的威仪。",
+    "note_en": "Wearing tall caps alongside the imperial carriage; driving chariots with cap-strings streaming.",
+    "note_detail_en": "Gao guan means tall official caps. Nian means the emperor's carriage. Gu means chariot wheels. Ying means cap strings. Describes the majesty of courtiers accompanying the emperor."
   },
   {
     "id": 65,
@@ -1882,7 +2010,9 @@
       "qīng"
     ],
     "note": "世代享受俸禄、奢侈富贵，车马肥壮、衣着轻裘。",
-    "note_detail": "世禄，世代享受俸禄。侈富，奢侈富贵。肥轻，肥马轻裘，出自《论语》，形容富贵生活。"
+    "note_detail": "世禄，世代享受俸禄。侈富，奢侈富贵。肥轻，肥马轻裘，出自《论语》，形容富贵生活。",
+    "note_en": "Hereditary wealth and luxury through generations; carriages drawn by fat horses, dressed in light furs.",
+    "note_detail_en": "Shi lu means hereditary salary. Chi fu means extravagant wealth. Fei qing means fat horses and light furs, from the Analects, describing a wealthy lifestyle."
   },
   {
     "id": 66,
@@ -1911,7 +2041,9 @@
       "míng"
     ],
     "note": "记录功勋和丰硕的业绩，刻在碑石上铭记不忘。",
-    "note_detail": "策功，记录功劳。茂实，丰盛的业绩。勒碑，在碑石上刻字。刻铭，刻写铭文。"
+    "note_detail": "策功，记录功劳。茂实，丰盛的业绩。勒碑，在碑石上刻字。刻铭，刻写铭文。",
+    "note_en": "Recording meritorious deeds and substantial achievements; inscribing them on stone tablets for posterity.",
+    "note_detail_en": "Ce gong means recording achievements. Mao shi means substantial accomplishments. Le bei means carving on stone tablets. Ke ming means inscribing memorial text."
   },
   {
     "id": 67,
@@ -1940,7 +2072,9 @@
       "héng"
     ],
     "note": "姜太公在磻溪钓鱼等待明主，伊尹辅佐商汤成就大业。",
-    "note_detail": "磻溪，姜太公垂钓之处。伊尹，商汤的宰相。佐时，辅佐当时的君主。阿衡，伊尹的官职名。"
+    "note_detail": "磻溪，姜太公垂钓之处。伊尹，商汤的宰相。佐时，辅佐当时的君主。阿衡，伊尹的官职名。",
+    "note_en": "Jiang Taigong fished at Pan Creek; Yi Yin served as prime minister, known as A Heng.",
+    "note_detail_en": "Pan xi is where Jiang Taigong fished while waiting for a wise ruler. Yi Yin was the prime minister of King Tang of Shang. Zuo shi means assisting the ruler of the time. A Heng was Yi Yin's official title."
   },
   {
     "id": 68,
@@ -1969,7 +2103,9 @@
       "yíng"
     ],
     "note": "周公的封地在曲阜，如果没有周公旦，谁来营建这一切？",
-    "note_detail": "奄宅，居住。曲阜，周公的封地，今山东曲阜。微旦，如果没有周公旦。孰营，谁来经营。"
+    "note_detail": "奄宅，居住。曲阜，周公的封地，今山东曲阜。微旦，如果没有周公旦。孰营，谁来经营。",
+    "note_en": "The Duke of Zhou's fief was in Qufu; without the Duke of Zhou, who would have built all this?",
+    "note_detail_en": "Yan zhai means to reside. Qufu was the Duke of Zhou's fief, modern Qufu in Shandong. Wei Dan means without the Duke of Zhou. Shu ying means who would manage it."
   },
   {
     "id": 69,
@@ -1998,7 +2134,9 @@
       "qīng"
     ],
     "note": "齐桓公匡正天下、联合诸侯，救济弱小、扶持倾危。",
-    "note_detail": "桓公，齐桓公，春秋五霸之首。匡合，匡正天下、会合诸侯。济弱扶倾，救济弱小、扶持将倾之国。"
+    "note_detail": "桓公，齐桓公，春秋五霸之首。匡合，匡正天下、会合诸侯。济弱扶倾，救济弱小、扶持将倾之国。",
+    "note_en": "Duke Huan of Qi united the lords and rectified the realm; he aided the weak and supported the falling.",
+    "note_detail_en": "Duke Huan was the first of the Five Hegemons of the Spring and Autumn period. Kuang he means rectifying the realm and uniting the lords. Ji ruo fu qing means aiding the weak and supporting states about to fall."
   },
   {
     "id": 70,
@@ -2027,7 +2165,9 @@
       "dīng"
     ],
     "note": "绮里季等四皓使汉惠帝回心转意，傅说感动了商王武丁。",
-    "note_detail": "绮回，绮里季使汉惠帝改变主意。汉惠，汉惠帝。说感武丁，傅说感动商王武丁，被任命为宰相。"
+    "note_detail": "绮回，绮里季使汉惠帝改变主意。汉惠，汉惠帝。说感武丁，傅说感动商王武丁，被任命为宰相。",
+    "note_en": "Qi Liji and the Four Elders changed Emperor Hui of Han's mind; Fu Yue moved King Wu Ding of Shang.",
+    "note_detail_en": "Qi hui means Qi Liji caused Emperor Hui of Han to change his mind. Shuo gan Wu Ding means Fu Yue moved King Wu Ding and was appointed prime minister."
   },
   {
     "id": 71,
@@ -2056,7 +2196,9 @@
       "níng"
     ],
     "note": "英俊贤义之士要密切团结，人才众多国家才能安宁。",
-    "note_detail": "俊义，英俊贤义之人。密勿，勤勉努力。多士，众多人才。实宁，确实安宁。"
+    "note_detail": "俊义，英俊贤义之人。密勿，勤勉努力。多士，众多人才。实宁，确实安宁。",
+    "note_en": "Outstanding and righteous people work diligently; with many talented people, the nation finds peace.",
+    "note_detail_en": "Jun yi means outstanding and righteous people. Mi wu means diligent effort. Duo shi means many talented people. Shi ning means truly peaceful."
   },
   {
     "id": 72,
@@ -2085,7 +2227,9 @@
       "héng"
     ],
     "note": "晋国和楚国交替称霸，赵国和魏国被连横之策所困。",
-    "note_detail": "更霸，交替称霸。困横，被连横之策所困扰。描写春秋战国时期的政治格局。"
+    "note_detail": "更霸，交替称霸。困横，被连横之策所困扰。描写春秋战国时期的政治格局。",
+    "note_en": "Jin and Chu alternated as hegemons; Zhao and Wei were troubled by the Horizontal Alliance strategy.",
+    "note_detail_en": "Geng ba means alternating hegemony. Kun heng means troubled by the Horizontal Alliance strategy. Describes the political landscape of the Spring and Autumn and Warring States periods."
   },
   {
     "id": 73,
@@ -2114,7 +2258,9 @@
       "méng"
     ],
     "note": "借道灭掉虢国，在践土举行会盟。",
-    "note_detail": "假途灭虢，晋献公借道虞国灭掉虢国的典故。践土会盟，晋文公在践土与诸侯会盟，确立霸主地位。"
+    "note_detail": "假途灭虢，晋献公借道虞国灭掉虢国的典故。践土会盟，晋文公在践土与诸侯会盟，确立霸主地位。",
+    "note_en": "Borrowing a road to destroy the state of Guo; holding the covenant at Jiantu.",
+    "note_detail_en": "Jia tu mie Guo: Duke Xian of Jin borrowed passage through Yu to destroy Guo. Jian tu hui meng: Duke Wen of Jin held a covenant with the lords at Jiantu, establishing his hegemony."
   },
   {
     "id": 74,
@@ -2143,7 +2289,9 @@
       "xíng"
     ],
     "note": "萧何遵循简约的法律，韩非却因繁琐的刑法而弊败。",
-    "note_detail": "何遵约法，萧何制定简约的法律。韩弊烦刑，韩非主张严刑峻法，最终自己也因此而亡。"
+    "note_detail": "何遵约法，萧何制定简约的法律。韩弊烦刑，韩非主张严刑峻法，最终自己也因此而亡。",
+    "note_en": "Xiao He followed simple laws; Han Fei was undone by harsh punishments.",
+    "note_detail_en": "He zun yue fa: Xiao He established simple laws. Han bi fan xing: Han Fei advocated strict laws but ultimately perished because of them."
   },
   {
     "id": 75,
@@ -2172,7 +2320,9 @@
       "jīng"
     ],
     "note": "白起、王翦、廉颇、李牧，他们用兵最为精妙。",
-    "note_detail": "起，白起，秦国名将。翦，王翦，秦国名将。颇，廉颇，赵国名将。牧，李牧，赵国名将。战国四大名将。"
+    "note_detail": "起，白起，秦国名将。翦，王翦，秦国名将。颇，廉颇，赵国名将。牧，李牧，赵国名将。战国四大名将。",
+    "note_en": "Bai Qi, Wang Jian, Lian Po, and Li Mu—their military strategies were the most brilliant.",
+    "note_detail_en": "Qi is Bai Qi, a famous Qin general. Jian is Wang Jian, a famous Qin general. Po is Lian Po, a famous Zhao general. Mu is Li Mu, a famous Zhao general. The four great generals of the Warring States."
   },
   {
     "id": 76,
@@ -2201,7 +2351,9 @@
       "qīng"
     ],
     "note": "在沙漠中宣扬国威，美名流传于史册画卷。",
-    "note_detail": "宣威沙漠，在边疆沙漠宣扬国威。丹青，指绘画和史书，比喻名垂青史。"
+    "note_detail": "宣威沙漠，在边疆沙漠宣扬国威。丹青，指绘画和史书，比喻名垂青史。",
+    "note_en": "They proclaimed their might across the desert; their fame gallops through the annals of history.",
+    "note_detail_en": "Xuan wei sha mo means proclaiming national might in the frontier deserts. Dan qing refers to paintings and historical records, meaning their fame is recorded for posterity."
   },
   {
     "id": 77,
@@ -2230,7 +2382,9 @@
       "bìng"
     ],
     "note": "九州是大禹治水留下的足迹，百郡是秦始皇统一后的行政区划。",
-    "note_detail": "九州，大禹划分天下为九州。禹迹，大禹的足迹。百郡，秦统一后设立的郡县。秦并，秦始皇统一六国。"
+    "note_detail": "九州，大禹划分天下为九州。禹迹，大禹的足迹。百郡，秦统一后设立的郡县。秦并，秦始皇统一六国。",
+    "note_en": "The Nine Provinces bear the traces of Yu's flood control; the hundred commanderies were unified by Qin.",
+    "note_detail_en": "Jiu zhou: Yu the Great divided the realm into nine provinces. Yu ji: the traces of Yu the Great. Bai jun: the commanderies established after Qin's unification. Qin bing: Qin Shi Huang unified the six states."
   },
   {
     "id": 78,
@@ -2259,7 +2413,9 @@
       "tíng"
     ],
     "note": "五岳以泰山为首，禅祭的主要场所是云亭山。",
-    "note_detail": "岳宗，五岳之首。泰岱，泰山。禅主，禅祭的主要场所。云亭，云亭山，在泰山附近，古代封禅之地。"
+    "note_detail": "岳宗，五岳之首。泰岱，泰山。禅主，禅祭的主要场所。云亭，云亭山，在泰山附近，古代封禅之地。",
+    "note_en": "Among the Five Sacred Mountains, Mount Tai is supreme; the feng and shan sacrifices were held at Yunting.",
+    "note_detail_en": "Yue zong means the chief of the Five Sacred Mountains. Tai Dai is Mount Tai. Shan zhu means the main site for shan sacrifices. Yun ting is Yunting Mountain near Mount Tai, an ancient site for feng and shan ceremonies."
   },
   {
     "id": 79,
@@ -2288,7 +2444,9 @@
       "chéng"
     ],
     "note": "雁门关和紫塞是北方要塞，鸡田和赤城是边疆重镇。",
-    "note_detail": "雁门，雁门关，山西北部要塞。紫塞，长城的别称。鸡田，边疆地名。赤城，边疆城镇名。"
+    "note_detail": "雁门，雁门关，山西北部要塞。紫塞，长城的别称。鸡田，边疆地名。赤城，边疆城镇名。",
+    "note_en": "Yanmen Pass and the Purple Frontier are northern strongholds; Jitian and Chicheng are border fortresses.",
+    "note_detail_en": "Yanmen is Yanmen Pass in northern Shanxi. Zi sai is another name for the Great Wall. Ji tian is a frontier place name. Chi cheng is a border town name."
   },
   {
     "id": 80,
@@ -2317,7 +2475,9 @@
       "tíng"
     ],
     "note": "昆明池和碣石山，巨野泽和洞庭湖，都是天下名胜。",
-    "note_detail": "昆池，昆明池，汉武帝所凿。碣石，碣石山，在河北。巨野，巨野泽，古代大湖。洞庭，洞庭湖。"
+    "note_detail": "昆池，昆明池，汉武帝所凿。碣石，碣石山，在河北。巨野，巨野泽，古代大湖。洞庭，洞庭湖。",
+    "note_en": "Kunming Pool and Jieshi Mountain; Juye Marsh and Dongting Lake—all famous landmarks.",
+    "note_detail_en": "Kun chi is Kunming Pool, excavated by Emperor Wu of Han. Jie shi is Jieshi Mountain in Hebei. Ju ye is Juye Marsh, an ancient great lake. Dong ting is Dongting Lake."
   },
   {
     "id": 81,
@@ -2346,7 +2506,9 @@
       "míng"
     ],
     "note": "大地辽阔深远、绵延无际，山岩洞穴幽深昏暗。",
-    "note_detail": "旷远，辽阔深远。绵邈，绵延遥远。岩岫，山岩洞穴。杳冥，幽深昏暗。描写山川的壮阔。"
+    "note_detail": "旷远，辽阔深远。绵邈，绵延遥远。岩岫，山岩洞穴。杳冥，幽深昏暗。描写山川的壮阔。",
+    "note_en": "The land stretches vast and far; mountain caves are deep and dark.",
+    "note_detail_en": "Kuang yuan means vast and far. Mian miao means stretching endlessly. Yan xiu means mountain caves. Yao ming means deep and dark. Describes the grandeur of mountains and rivers."
   },
   {
     "id": 82,
@@ -2375,7 +2537,9 @@
       "sè"
     ],
     "note": "治国的根本在于农业，要致力于耕种和收获。",
-    "note_detail": "治本于农，治理国家以农业为根本。稼穑，种植和收获。兹，此。务，致力于。重农思想。"
+    "note_detail": "治本于农，治理国家以农业为根本。稼穑，种植和收获。兹，此。务，致力于。重农思想。",
+    "note_en": "Governance is rooted in agriculture; devote yourself to planting and harvesting.",
+    "note_detail_en": "Zhi ben yu nong means governance is fundamentally based on agriculture. Jia se means planting and harvesting. Zi means this. Wu means to devote oneself to. The philosophy of prioritizing agriculture."
   },
   {
     "id": 83,
@@ -2404,7 +2568,9 @@
       "jì"
     ],
     "note": "开始在南边的田地里耕作，种植黍和稷等粮食。",
-    "note_detail": "俶载，开始从事。南亩，南面的田地。艺，种植。黍稷，两种粮食作物。出自《诗经》。"
+    "note_detail": "俶载，开始从事。南亩，南面的田地。艺，种植。黍稷，两种粮食作物。出自《诗经》。",
+    "note_en": "Begin working the southern fields; plant millet and grain.",
+    "note_detail_en": "Chu zai means to begin work. Nan mu means the southern fields. Yi means to plant. Shu ji are two types of grain crops. From the Book of Songs."
   },
   {
     "id": 84,
@@ -2433,7 +2599,9 @@
       "zhì"
     ],
     "note": "庄稼成熟了要缴税，新粮收获了要进贡。奖赏勤劳的，惩罚懒惰的。",
-    "note_detail": "税熟，庄稼成熟缴税。贡新，进贡新粮。劝赏，奖励。黜陟，降职和升职。"
+    "note_detail": "税熟，庄稼成熟缴税。贡新，进贡新粮。劝赏，奖励。黜陟，降职和升职。",
+    "note_en": "When crops ripen, pay taxes; when new grain comes, make tribute. Reward the diligent, punish the lazy.",
+    "note_detail_en": "Shui shu means paying taxes when crops ripen. Gong xin means tributing new grain. Quan shang means rewarding. Chu zhi means demotion and promotion."
   },
   {
     "id": 85,
@@ -2462,7 +2630,9 @@
       "zhí"
     ],
     "note": "孟子崇尚朴素，史鱼秉持正直。",
-    "note_detail": "孟轲，孟子。敦素，崇尚朴素。史鱼，卫国大夫，以正直著称，死后尸谏。秉直，秉持正直。"
+    "note_detail": "孟轲，孟子。敦素，崇尚朴素。史鱼，卫国大夫，以正直著称，死后尸谏。秉直，秉持正直。",
+    "note_en": "Mencius championed simplicity; Shi Yu upheld integrity.",
+    "note_detail_en": "Meng Ke is Mencius. Dun su means championing simplicity. Shi Yu was a minister of Wei, famous for his integrity, who remonstrated even after death. Bing zhi means upholding integrity."
   },
   {
     "id": 86,
@@ -2491,7 +2661,9 @@
       "chì"
     ],
     "note": "差不多能达到中庸之道，要勤劳谦虚、谨慎自律。",
-    "note_detail": "庶几，差不多。中庸，不偏不倚的处世之道。劳谦，勤劳谦虚。谨敕，谨慎自律。"
+    "note_detail": "庶几，差不多。中庸，不偏不倚的处世之道。劳谦，勤劳谦虚。谨敕，谨慎自律。",
+    "note_en": "Strive to approach the Middle Way; be diligent, humble, careful, and disciplined.",
+    "note_detail_en": "Shu ji means nearly. Zhong yong means the Middle Way, neither excessive nor deficient. Lao qian means diligent and humble. Jin chi means careful and disciplined."
   },
   {
     "id": 87,
@@ -2520,7 +2692,9 @@
       "sè"
     ],
     "note": "听声音可以察知道理，看外貌可以辨别心思。",
-    "note_detail": "聆音，倾听声音。察理，察知道理。鉴貌，审视外貌。辨色，辨别神色。识人之术。"
+    "note_detail": "聆音，倾听声音。察理，察知道理。鉴貌，审视外貌。辨色，辨别神色。识人之术。",
+    "note_en": "Listen to voices to discern truth; observe appearances to read intentions.",
+    "note_detail_en": "Ling yin means listening to voices. Cha li means discerning truth. Jian mao means examining appearances. Bian se means reading expressions. The art of judging people."
   },
   {
     "id": 88,
@@ -2549,7 +2723,9 @@
       "zhí"
     ],
     "note": "留下美好的谋略计划，勉励人们恭敬地培植德行。",
-    "note_detail": "贻，留下。厥，其。嘉猷，美好的谋略。勉，勉励。祗植，恭敬地培植。"
+    "note_detail": "贻，留下。厥，其。嘉猷，美好的谋略。勉，勉励。祗植，恭敬地培植。",
+    "note_en": "Leave behind excellent plans and strategies; encourage others to respectfully cultivate virtue.",
+    "note_detail_en": "Yi means to leave behind. Jue means their. Jia you means excellent strategies. Mian means to encourage. Zhi zhi means to respectfully cultivate."
   },
   {
     "id": 89,
@@ -2578,7 +2754,9 @@
       "jí"
     ],
     "note": "反省自身、接受批评告诫，受宠时更要谨慎、不可骄横。",
-    "note_detail": "省躬，反省自身。讥诫，批评告诫。宠增，受宠越多。抗极，越要谨慎到极点。"
+    "note_detail": "省躬，反省自身。讥诫，批评告诫。宠增，受宠越多。抗极，越要谨慎到极点。",
+    "note_en": "Reflect on yourself and heed criticism; the more favor you receive, the more cautious you must be.",
+    "note_detail_en": "Xing gong means self-reflection. Ji jie means criticism and admonition. Chong zeng means receiving more favor. Kang ji means being cautious to the utmost."
   },
   {
     "id": 90,
@@ -2607,7 +2785,9 @@
       "jí"
     ],
     "note": "危险和耻辱就在身边，不如归隐山林水边。",
-    "note_detail": "殆辱，危险和耻辱。近耻，接近耻辱。林皋，山林水边。幸即，幸运地归隐。功成身退的思想。"
+    "note_detail": "殆辱，危险和耻辱。近耻，接近耻辱。林皋，山林水边。幸即，幸运地归隐。功成身退的思想。",
+    "note_en": "Danger and disgrace lurk nearby; better to retire to the forests and streams.",
+    "note_detail_en": "Dai ru means danger and disgrace. Jin chi means approaching shame. Lin gao means forests and streams. Xing ji means fortunately retiring. The philosophy of retiring after success."
   },
   {
     "id": 91,
@@ -2636,7 +2816,9 @@
       "bī"
     ],
     "note": "疏广和疏受见机而退，解下官印离去，谁能逼迫他们？",
-    "note_detail": "两疏，疏广和疏受叔侄，汉代名臣，功成身退。见机，看到时机。解组，解下印绶辞官。"
+    "note_detail": "两疏，疏广和疏受叔侄，汉代名臣，功成身退。见机，看到时机。解组，解下印绶辞官。",
+    "note_en": "The two Shus saw the right moment and resigned their posts—who could force them to stay?",
+    "note_detail_en": "The two Shus are Shu Guang and Shu Shou, uncle and nephew, famous Han dynasty officials who retired at the height of their careers. Jian ji means seeing the right moment. Jie zu means removing one's official seal."
   },
   {
     "id": 92,
@@ -2665,7 +2847,9 @@
       "liáo"
     ],
     "note": "独自居住在清闲之处，沉默寡言、寂静无声。",
-    "note_detail": "索居，独自居住。闲处，清闲之处。沉默，不说话。寂寥，寂静冷清。描写隐居生活。"
+    "note_detail": "索居，独自居住。闲处，清闲之处。沉默，不说话。寂寥，寂静冷清。描写隐居生活。",
+    "note_en": "Living alone in quiet seclusion; silent and serene.",
+    "note_detail_en": "Suo ju means living alone. Xian chu means a quiet place. Chen mo means silence. Ji liao means serene and still. Describes the life of a recluse."
   },
   {
     "id": 93,
@@ -2694,7 +2878,9 @@
       "yáo"
     ],
     "note": "探求古人的学说论著，散去忧虑、逍遥自在。",
-    "note_detail": "求古，探求古代学问。寻论，寻找论著。散虑，散去忧虑。逍遥，自由自在。隐居读书的乐趣。"
+    "note_detail": "求古，探求古代学问。寻论，寻找论著。散虑，散去忧虑。逍遥，自由自在。隐居读书的乐趣。",
+    "note_en": "Seeking ancient wisdom and studying classic texts; letting go of worries and wandering freely.",
+    "note_detail_en": "Qiu gu means seeking ancient knowledge. Xun lun means studying treatises. San lv means letting go of worries. Xiao yao means wandering freely. The pleasure of reading in seclusion."
   },
   {
     "id": 94,
@@ -2723,7 +2909,9 @@
       "zhāo"
     ],
     "note": "高兴时弹奏音乐消遣，忧愁时感谢欢乐的到来。",
-    "note_detail": "欣奏，高兴时弹奏。累遣，消遣排遣。戚谢，忧愁消退。欢招，欢乐到来。描写隐居的心境。"
+    "note_detail": "欣奏，高兴时弹奏。累遣，消遣排遣。戚谢，忧愁消退。欢招，欢乐到来。描写隐居的心境。",
+    "note_en": "Play music joyfully to dispel weariness; when sorrow fades, welcome happiness.",
+    "note_detail_en": "Xin zou means playing music joyfully. Lei qian means dispelling weariness. Qi xie means sorrow fading. Huan zhao means happiness arriving. Describes the emotional life of a recluse."
   },
   {
     "id": 95,
@@ -2752,7 +2940,9 @@
       "tiáo"
     ],
     "note": "池塘中荷花鲜明美丽，园中草木抽出新枝条。",
-    "note_detail": "渠荷，池塘中的荷花。的历，鲜明美丽。园莽，园中的草木。抽条，抽出新枝条。描写自然美景。"
+    "note_detail": "渠荷，池塘中的荷花。的历，鲜明美丽。园莽，园中的草木。抽条，抽出新枝条。描写自然美景。",
+    "note_en": "Lotus flowers bloom bright and vivid in the pond; garden plants send forth new shoots.",
+    "note_detail_en": "Qu he means lotus in the pond. Di li means bright and vivid. Yuan mang means garden plants. Chou tiao means sending forth new shoots. Describes natural beauty."
   },
   {
     "id": 96,
@@ -2781,7 +2971,9 @@
       "diāo"
     ],
     "note": "枇杷树到晚秋还是翠绿的，梧桐树却早早就凋落了。",
-    "note_detail": "枇杷，常绿乔木，冬天仍绿。晚翠，晚秋仍翠绿。梧桐，落叶乔木。早凋，秋天早早落叶。"
+    "note_detail": "枇杷，常绿乔木，冬天仍绿。晚翠，晚秋仍翠绿。梧桐，落叶乔木。早凋，秋天早早落叶。",
+    "note_en": "Loquat trees stay green into late autumn; paulownia trees shed their leaves early.",
+    "note_detail_en": "Pipa is an evergreen tree, still green in winter. Wan cui means green in late autumn. Wutong is a deciduous tree. Zao diao means shedding leaves early in autumn."
   },
   {
     "id": 97,
@@ -2810,7 +3002,9 @@
       "yáo"
     ],
     "note": "老树根枯萎腐烂，落叶在风中飘摇。",
-    "note_detail": "陈根，老旧的树根。委翳，枯萎腐烂。落叶飘摇，描写秋冬萧瑟的景象。"
+    "note_detail": "陈根，老旧的树根。委翳，枯萎腐烂。落叶飘摇，描写秋冬萧瑟的景象。",
+    "note_en": "Old roots wither and decay; fallen leaves drift and sway.",
+    "note_detail_en": "Chen gen means old tree roots. Wei yi means withering and decaying. Luo ye piao yao describes the bleak scene of autumn and winter."
   },
   {
     "id": 98,
@@ -2839,7 +3033,9 @@
       "xiāo"
     ],
     "note": "大鹏鸟独自翱翔运转，凌空飞上红色的天际。",
-    "note_detail": "鹍，大鹏鸟。独运，独自翱翔。凌摩，凌空摩擦。绛霄，红色的天空，指高空。出自《庄子·逍遥游》。"
+    "note_detail": "鹍，大鹏鸟。独运，独自翱翔。凌摩，凌空摩擦。绛霄，红色的天空，指高空。出自《庄子·逍遥游》。",
+    "note_en": "The great roc soars alone; rising to brush against the crimson sky.",
+    "note_detail_en": "Kun is the great roc bird. Du yun means soaring alone. Ling mo means rising to brush against. Jiang xiao means the crimson sky, referring to the highest heavens. From Zhuangzi's 'Free and Easy Wandering.'"
   },
   {
     "id": 99,
@@ -2868,7 +3064,9 @@
       "xiāng"
     ],
     "note": "沉迷于读书如同在市场中游玩，眼中所见都是书囊书箱。",
-    "note_detail": "耽读，沉迷于读书。玩市，如同逛市场般自在。寓目，放眼所见。囊箱，书囊和书箱。"
+    "note_detail": "耽读，沉迷于读书。玩市，如同逛市场般自在。寓目，放眼所见。囊箱，书囊和书箱。",
+    "note_en": "Lost in reading as if browsing a market; everywhere one looks, there are book bags and cases.",
+    "note_detail_en": "Dan du means absorbed in reading. Wan shi means as if browsing a market. Yu mu means everywhere one looks. Nang xiang means book bags and cases."
   },
   {
     "id": 100,
@@ -2897,7 +3095,9 @@
       "qiáng"
     ],
     "note": "轻率的言论容易招来祸患，隔墙有耳要小心。",
-    "note_detail": "易輶，轻率。攸畏，值得畏惧。属耳，贴耳偷听。垣墙，墙壁。告诫言语要谨慎。"
+    "note_detail": "易輶，轻率。攸畏，值得畏惧。属耳，贴耳偷听。垣墙，墙壁。告诫言语要谨慎。",
+    "note_en": "Careless words are something to fear; walls have ears.",
+    "note_detail_en": "Yi you means careless. You wei means worth fearing. Zhu er means ears pressed against. Yuan qiang means walls. A warning to be careful with words."
   },
   {
     "id": 101,
@@ -2926,7 +3126,9 @@
       "cháng"
     ],
     "note": "准备饭菜用餐，只要适合口味、填饱肚子就好。",
-    "note_detail": "具膳，准备饭菜。餐饭，吃饭。适口，合口味。充肠，填饱肚子。提倡饮食简朴。"
+    "note_detail": "具膳，准备饭菜。餐饭，吃饭。适口，合口味。充肠，填饱肚子。提倡饮食简朴。",
+    "note_en": "Prepare meals and eat; just enough to suit the taste and fill the stomach.",
+    "note_detail_en": "Ju shan means preparing meals. Can fan means eating. Shi kou means suiting the taste. Chong chang means filling the stomach. Advocates simple eating."
   },
   {
     "id": 102,
@@ -2955,7 +3157,9 @@
       "kāng"
     ],
     "note": "吃饱了就厌倦烹调宰杀的美食，饥饿时连糟糠也觉得美味。",
-    "note_detail": "饱饫，吃得很饱。烹宰，烹调宰杀。饥厌，饥饿时满足。糟糠，酒渣和米糠，粗劣的食物。"
+    "note_detail": "饱饫，吃得很饱。烹宰，烹调宰杀。饥厌，饥饿时满足。糟糠，酒渣和米糠，粗劣的食物。",
+    "note_en": "When full, one tires of fine cooking; when hungry, even chaff and husks taste good.",
+    "note_detail_en": "Bao yu means eating one's fill. Peng zai means fine cooking. Ji yan means satisfied when hungry. Zao kang means chaff and husks, coarse food."
   },
   {
     "id": 103,
@@ -2984,7 +3188,9 @@
       "liáng"
     ],
     "note": "亲戚朋友和故交旧友，老人和小孩的饮食要有所不同。",
-    "note_detail": "亲戚，有血缘关系的人。故旧，老朋友。异粮，不同的饮食。根据年龄调整饮食。"
+    "note_detail": "亲戚，有血缘关系的人。故旧，老朋友。异粮，不同的饮食。根据年龄调整饮食。",
+    "note_en": "For relatives and old friends, the old and young should have different diets.",
+    "note_detail_en": "Qin qi means blood relatives. Gu jiu means old friends. Yi liang means different food. Adjusting diet according to age."
   },
   {
     "id": 104,
@@ -3013,7 +3219,9 @@
       "fáng"
     ],
     "note": "妾侍从事纺织绩麻，侍奉在帷帐房间之中。",
-    "note_detail": "妾御，妾和侍女。绩纺，纺织绩麻。侍巾，侍奉盥洗。帷房，帷帐和房间。描写家庭生活。"
+    "note_detail": "妾御，妾和侍女。绩纺，纺织绩麻。侍巾，侍奉盥洗。帷房，帷帐和房间。描写家庭生活。",
+    "note_en": "Concubines and maids spin and weave; they attend with towels in the inner chambers.",
+    "note_detail_en": "Qie yu means concubines and maids. Ji fang means spinning and weaving. Shi jin means attending with towels. Wei fang means curtained chambers. Describes domestic life."
   },
   {
     "id": 105,
@@ -3042,7 +3250,9 @@
       "huáng"
     ],
     "note": "纨扇圆润洁白，银烛光辉灿烂。",
-    "note_detail": "纨扇，用细绢做的团扇。圆洁，圆润洁白。银烛，银色的蜡烛。炜煌，光辉灿烂。"
+    "note_detail": "纨扇，用细绢做的团扇。圆洁，圆润洁白。银烛，银色的蜡烛。炜煌，光辉灿烂。",
+    "note_en": "Silk fans are round and pure white; silver candles shine brilliantly.",
+    "note_detail_en": "Wan shan means a fan made of fine silk. Yuan jie means round and pure. Yin zhu means silver candles. Wei huang means shining brilliantly."
   },
   {
     "id": 106,
@@ -3071,7 +3281,9 @@
       "chuáng"
     ],
     "note": "白天午睡晚上安寝，睡在蓝色竹席和象牙床上。",
-    "note_detail": "昼眠，白天睡觉。夕寐，晚上睡觉。蓝笋，蓝色的竹席。象床，象牙装饰的床。"
+    "note_detail": "昼眠，白天睡觉。夕寐，晚上睡觉。蓝笋，蓝色的竹席。象床，象牙装饰的床。",
+    "note_en": "Sleeping by day and resting by night; on blue bamboo mats and ivory beds.",
+    "note_detail_en": "Zhou mian means daytime sleep. Xi mei means nighttime rest. Lan sun means blue bamboo mats. Xiang chuang means ivory-decorated beds."
   },
   {
     "id": 107,
@@ -3100,7 +3312,9 @@
       "shāng"
     ],
     "note": "弹琴唱歌、饮酒宴会，传杯举盏、开怀畅饮。",
-    "note_detail": "弦歌，弹琴唱歌。酒宴，饮酒宴会。接杯，传递酒杯。举觞，举起酒杯。"
+    "note_detail": "弦歌，弹琴唱歌。酒宴，饮酒宴会。接杯，传递酒杯。举觞，举起酒杯。",
+    "note_en": "Playing strings and singing at wine banquets; passing cups and raising goblets.",
+    "note_detail_en": "Xian ge means playing strings and singing. Jiu yan means wine banquets. Jie bei means passing cups. Ju shang means raising goblets."
   },
   {
     "id": 108,
@@ -3129,7 +3343,9 @@
       "kāng"
     ],
     "note": "手舞足蹈、欢乐跳跃，心情愉悦而且安康。",
-    "note_detail": "矫手，举手。顿足，跺脚。悦豫，愉悦。且康，而且安康。描写欢乐的场景。"
+    "note_detail": "矫手，举手。顿足，跺脚。悦豫，愉悦。且康，而且安康。描写欢乐的场景。",
+    "note_en": "Waving hands and stamping feet; joyful, happy, and at ease.",
+    "note_detail_en": "Jiao shou means waving hands. Dun zu means stamping feet. Yue yu means joyful. Qie kang means and at ease. Describes a scene of celebration."
   },
   {
     "id": 109,
@@ -3158,7 +3374,9 @@
       "cháng"
     ],
     "note": "嫡子继承后代延续，祭祀先祖四时不断。",
-    "note_detail": "嫡后，嫡子后代。嗣续，继承延续。烝尝，冬祭为烝，秋祭为尝，泛指四时祭祀。"
+    "note_detail": "嫡后，嫡子后代。嗣续，继承延续。烝尝，冬祭为烝，秋祭为尝，泛指四时祭祀。",
+    "note_en": "The legitimate heir continues the line; ancestral sacrifices are offered in every season.",
+    "note_detail_en": "Di hou means legitimate heir. Si xu means continuing the line. Zheng chang: zheng is the winter sacrifice, chang is the autumn sacrifice, referring to seasonal ancestral rites."
   },
   {
     "id": 110,
@@ -3187,7 +3405,9 @@
       "huáng"
     ],
     "note": "叩头再拜行大礼，心中恐惧惶恐不安。",
-    "note_detail": "稽颡，叩头至地。再拜，拜两次，最隆重的礼节。悚惧恐惶，形容对祖先的敬畏之心。"
+    "note_detail": "稽颡，叩头至地。再拜，拜两次，最隆重的礼节。悚惧恐惶，形容对祖先的敬畏之心。",
+    "note_en": "Kowtowing and bowing twice in the deepest reverence; trembling with awe and trepidation.",
+    "note_detail_en": "Qi sang means kowtowing to the ground. Zai bai means bowing twice, the most solemn ritual. Song ju kong huang describes the feeling of deep reverence toward ancestors."
   },
   {
     "id": 111,
@@ -3216,7 +3436,9 @@
       "xiáng"
     ],
     "note": "书信文牒要简明扼要，回复答对要审慎详尽。",
-    "note_detail": "笺牒，书信和文牒。简要，简明扼要。顾答，回复答对。审详，审慎详尽。"
+    "note_detail": "笺牒，书信和文牒。简要，简明扼要。顾答，回复答对。审详，审慎详尽。",
+    "note_en": "Letters and documents should be concise; replies should be careful and thorough.",
+    "note_detail_en": "Jian die means letters and documents. Jian yao means concise. Gu da means replying. Shen xiang means careful and thorough."
   },
   {
     "id": 112,
@@ -3245,7 +3467,9 @@
       "liáng"
     ],
     "note": "身体污垢了就想洗澡，手持热物就希望凉爽。",
-    "note_detail": "骸垢，身体上的污垢。想浴，想要沐浴。执热，手持热物。愿凉，希望凉爽。比喻人之常情。"
+    "note_detail": "骸垢，身体上的污垢。想浴，想要沐浴。执热，手持热物。愿凉，希望凉爽。比喻人之常情。",
+    "note_en": "When the body is dirty, one wants to bathe; when holding something hot, one wishes for coolness.",
+    "note_detail_en": "Hai gou means bodily dirt. Xiang yu means wanting to bathe. Zhi re means holding something hot. Yuan liang means wishing for coolness. A metaphor for human nature."
   },
   {
     "id": 113,
@@ -3274,7 +3498,9 @@
       "xiāng"
     ],
     "note": "驴、骡、牛犊等牲畜，受惊时跳跃奔腾。",
-    "note_detail": "驴骡，驴和骡。犊特，小牛和公牛。骇跃，受惊跳跃。超骧，奔腾飞跃。"
+    "note_detail": "驴骡，驴和骡。犊特，小牛和公牛。骇跃，受惊跳跃。超骧，奔腾飞跃。",
+    "note_en": "Donkeys, mules, calves, and bulls—when startled, they leap and gallop.",
+    "note_detail_en": "Lv luo means donkeys and mules. Du te means calves and bulls. Hai yue means startled leaping. Chao xiang means galloping and rearing."
   },
   {
     "id": 114,
@@ -3303,7 +3529,9 @@
       "wáng"
     ],
     "note": "诛杀斩首盗贼，捕获叛逃之人。",
-    "note_detail": "诛斩，诛杀斩首。贼盗，盗贼。捕获，抓获。叛亡，叛逃逃亡之人。描写法治。"
+    "note_detail": "诛斩，诛杀斩首。贼盗，盗贼。捕获，抓获。叛亡，叛逃逃亡之人。描写法治。",
+    "note_en": "Execute and behead thieves and bandits; capture and seize rebels and fugitives.",
+    "note_detail_en": "Zhu zhan means executing and beheading. Zei dao means thieves and bandits. Bu huo means capturing. Pan wang means rebels and fugitives. Describes law enforcement."
   },
   {
     "id": 115,
@@ -3332,7 +3560,9 @@
       "xiào"
     ],
     "note": "吕布善射箭、宜僚善弄丸，嵇康善弹琴、阮籍善长啸。",
-    "note_detail": "布射，吕布善射。僚丸，宜僚善弄丸。嵇琴，嵇康善弹琴。阮啸，阮籍善长啸。各有所长。"
+    "note_detail": "布射，吕布善射。僚丸，宜僚善弄丸。嵇琴，嵇康善弹琴。阮啸，阮籍善长啸。各有所长。",
+    "note_en": "Lv Bu excelled at archery, Yi Liao at juggling balls; Ji Kang at playing the qin, Ruan Ji at whistling.",
+    "note_detail_en": "Bu she: Lv Bu was skilled at archery. Liao wan: Yi Liao was skilled at juggling. Ji qin: Ji Kang was skilled at the qin. Ruan xiao: Ruan Ji was skilled at long whistling. Each had their specialty."
   },
   {
     "id": 116,
@@ -3361,7 +3591,9 @@
       "diào"
     ],
     "note": "蒙恬发明了毛笔，蔡伦发明了造纸。马钧心灵手巧，任公子善于钓鱼。",
-    "note_detail": "恬笔，蒙恬改良毛笔。伦纸，蔡伦改良造纸术。钧巧，马钧的巧思。任钓，任公子钓大鱼的故事。"
+    "note_detail": "恬笔，蒙恬改良毛笔。伦纸，蔡伦改良造纸术。钧巧，马钧的巧思。任钓，任公子钓大鱼的故事。",
+    "note_en": "Meng Tian improved the brush; Cai Lun improved papermaking. Ma Jun was ingeniously clever; Ren Gongzi was skilled at fishing.",
+    "note_detail_en": "Tian bi: Meng Tian improved the writing brush. Lun zhi: Cai Lun improved papermaking. Jun qiao: Ma Jun's ingenuity. Ren diao: the story of Ren Gongzi catching a giant fish."
   },
   {
     "id": 117,
@@ -3390,7 +3622,9 @@
       "miào"
     ],
     "note": "他们的技艺能解纷争、利民俗，全都精妙绝伦。",
-    "note_detail": "释纷，解除纷争。利俗，有利于世俗。并皆，全都。佳妙，精妙绝伦。"
+    "note_detail": "释纷，解除纷争。利俗，有利于世俗。并皆，全都。佳妙，精妙绝伦。",
+    "note_en": "Their skills could resolve disputes and benefit society; all were wonderfully excellent.",
+    "note_detail_en": "Shi fen means resolving disputes. Li su means benefiting society. Bing jie means all of them. Jia miao means wonderfully excellent."
   },
   {
     "id": 118,
@@ -3419,7 +3653,9 @@
       "xiào"
     ],
     "note": "毛嫱和西施容貌美丽，皱眉和微笑都很动人。",
-    "note_detail": "毛施，毛嫱和西施，古代美女。淑姿，美好的姿容。工颦，善于皱眉（东施效颦典故）。妍笑，美丽的笑容。"
+    "note_detail": "毛施，毛嫱和西施，古代美女。淑姿，美好的姿容。工颦，善于皱眉（东施效颦典故）。妍笑，美丽的笑容。",
+    "note_en": "Mao Qiang and Xi Shi had beautiful appearances; their frowns and smiles were equally enchanting.",
+    "note_detail_en": "Mao Shi refers to Mao Qiang and Xi Shi, legendary beauties. Shu zi means beautiful appearance. Gong pin means skilled at frowning (the story of Dong Shi imitating Xi Shi). Yan xiao means beautiful smiles."
   },
   {
     "id": 119,
@@ -3448,7 +3684,9 @@
       "yào"
     ],
     "note": "光阴如箭催人老，太阳的光辉明亮照耀。",
-    "note_detail": "年矢，光阴如箭。每催，不断催促。曦晖，太阳的光辉。朗曜，明亮照耀。感叹时光流逝。"
+    "note_detail": "年矢，光阴如箭。每催，不断催促。曦晖，太阳的光辉。朗曜，明亮照耀。感叹时光流逝。",
+    "note_en": "Years fly like arrows, ever urging us on; the sun's radiance shines bright and clear.",
+    "note_detail_en": "Nian shi means time flies like arrows. Mei cui means constantly urging. Xi hui means the sun's radiance. Lang yao means bright and shining. Lamenting the passage of time."
   },
   {
     "id": 120,
@@ -3477,7 +3715,9 @@
       "zhào"
     ],
     "note": "北斗星悬挂天空运转不息，月亮的光辉环绕照耀大地。",
-    "note_detail": "璇玑，北斗七星。悬斡，悬挂运转。晦魄，月亮（晦日无光之月）。环照，环绕照耀。"
+    "note_detail": "璇玑，北斗七星。悬斡，悬挂运转。晦魄，月亮（晦日无光之月）。环照，环绕照耀。",
+    "note_en": "The Big Dipper hangs in the sky, turning ceaselessly; the moon's light circles and illuminates the earth.",
+    "note_detail_en": "Xuan ji refers to the Big Dipper. Xuan wo means hanging and turning. Hui po means the moon (dark moon). Huan zhao means circling and illuminating."
   },
   {
     "id": 121,
@@ -3506,7 +3746,9 @@
       "shào"
     ],
     "note": "薪火相传修积福祉，永远安宁吉祥美好。",
-    "note_detail": "指薪，薪火相传。修祜，修积福祉。永绥，永远安宁。吉劭，吉祥美好。"
+    "note_detail": "指薪，薪火相传。修祜，修积福祉。永绥，永远安宁。吉劭，吉祥美好。",
+    "note_en": "Pass the torch from generation to generation, cultivating blessings; may peace and good fortune last forever.",
+    "note_detail_en": "Zhi xin means passing the torch. Xiu hu means cultivating blessings. Yong sui means eternal peace. Ji shao means auspicious and excellent."
   },
   {
     "id": 122,
@@ -3535,7 +3777,9 @@
       "miào"
     ],
     "note": "举步行走要合乎规矩，在朝廷庙堂中俯仰有度。",
-    "note_detail": "矩步，按规矩走路。引领，伸长脖子。俯仰，低头抬头。廊庙，朝廷庙堂。形容朝堂上的庄重仪态。"
+    "note_detail": "矩步，按规矩走路。引领，伸长脖子。俯仰，低头抬头。廊庙，朝廷庙堂。形容朝堂上的庄重仪态。",
+    "note_en": "Walk with measured steps and upright bearing; bow and stand with dignity in court and temple.",
+    "note_detail_en": "Ju bu means walking by the rules. Yin ling means stretching one's neck upright. Fu yang means bowing and standing. Lang miao means court and temple. Describes dignified bearing in the court."
   },
   {
     "id": 123,
@@ -3564,7 +3808,9 @@
       "tiào"
     ],
     "note": "束好衣带庄重矜持，徘徊之间瞻望远眺。",
-    "note_detail": "束带，整理衣带。矜庄，庄重矜持。徘徊，来回走动。瞻眺，瞻望远眺。"
+    "note_detail": "束带，整理衣带。矜庄，庄重矜持。徘徊，来回走动。瞻眺，瞻望远眺。",
+    "note_en": "Fasten your belt with solemn dignity; pace about, gazing into the distance.",
+    "note_detail_en": "Shu dai means fastening one's belt. Jin zhuang means solemn dignity. Pai huai means pacing about. Zhan tiao means gazing into the distance."
   },
   {
     "id": 124,
@@ -3593,7 +3839,9 @@
       "qiào"
     ],
     "note": "我孤陋寡闻、愚昧无知，等着被人讥笑。",
-    "note_detail": "孤陋，孤陋浅薄。寡闻，见识少。愚蒙，愚昧蒙昧。等诮，等着被讥笑。作者自谦之辞。"
+    "note_detail": "孤陋，孤陋浅薄。寡闻，见识少。愚蒙，愚昧蒙昧。等诮，等着被讥笑。作者自谦之辞。",
+    "note_en": "I am ignorant and have seen little; foolish and unenlightened, I await ridicule.",
+    "note_detail_en": "Gu lou means ignorant and shallow. Gua wen means having seen little. Yu meng means foolish and unenlightened. Deng qiao means awaiting ridicule. The author's humble self-deprecation."
   },
   {
     "id": 125,
@@ -3622,6 +3870,8 @@
       "yě"
     ],
     "note": "所谓语助词，就是焉、哉、乎、也这些字。",
-    "note_detail": "谓语助者，所谓语气助词。焉哉乎也，四个常用的文言语气词。千字文以此四字收尾，恰好凑足一千字。"
+    "note_detail": "谓语助者，所谓语气助词。焉哉乎也，四个常用的文言语气词。千字文以此四字收尾，恰好凑足一千字。",
+    "note_en": "The so-called grammatical particles are yan, zai, hu, and ye.",
+    "note_detail_en": "Wei yu zhu zhe means so-called grammatical particles. Yan zai hu ye are four common classical Chinese particles. The Thousand Character Classic ends with these four characters, completing exactly one thousand characters."
   }
 ]

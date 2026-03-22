@@ -33,6 +33,10 @@
             注释
             <span class="toggle-dot" :class="{ active: showNotes }"></span>
           </button>
+          <button class="btn btn-ghost" @click="toggleLang" :aria-label="isEnglish ? '切换中文注释' : 'Switch to English'">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            {{ isEnglish ? 'EN' : '中' }}
+          </button>
           <button class="btn btn-ghost btn-icon" @click="toggleDark" :aria-label="isDark ? '切换亮色模式' : '切换暗色模式'">
             <svg v-if="!isDark" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
             <svg v-if="isDark" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
@@ -81,7 +85,7 @@
                 </div>
               </div>
 
-              <p class="hero-note" v-if="showNotes && currentVerse.note">{{ currentVerse.note }}</p>
+              <p class="hero-note" v-if="showNotes && getNote(currentVerse)">{{ getNote(currentVerse) }}</p>
             </div>
 
             <p class="hero-source"><span class="source-tag">南朝梁 · 周兴嗣</span></p>
@@ -137,13 +141,13 @@
               <ruby v-for="(char, i) in pair.line2" :key="'l2-'+pair.id+'-'+i" class="char" :class="{ highlight: isHighlighted(char, pair.pinyin2[i]) }">{{ char }}<rt v-show="showPinyin">{{ pair.pinyin2[i] }}</rt></ruby>
             </div>
           </div>
-          <div class="verse-note" v-if="showNotes && pair.note">
-            <p class="note-brief">{{ pair.note }}</p>
-            <button class="note-toggle" v-if="pair.note_detail" @click="toggleDetail(pair.id)">
-              {{ expandedNotes.has(pair.id) ? '收起' : '详注' }}
+          <div class="verse-note" v-if="showNotes && getNote(pair)">
+            <p class="note-brief">{{ getNote(pair) }}</p>
+            <button class="note-toggle" v-if="getNoteDetail(pair)" @click="toggleDetail(pair.id)">
+              {{ expandedNotes.has(pair.id) ? (isEnglish ? 'Less' : '收起') : (isEnglish ? 'More' : '详注') }}
               <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" :style="{ transform: expandedNotes.has(pair.id) ? 'rotate(180deg)' : '' }"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <p class="note-detail" v-if="expandedNotes.has(pair.id)">{{ pair.note_detail }}</p>
+            <p class="note-detail" v-if="expandedNotes.has(pair.id)">{{ getNoteDetail(pair) }}</p>
           </div>
         </div>
       </div>
